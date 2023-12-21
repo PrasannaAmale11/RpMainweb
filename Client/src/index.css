@@ -1,0 +1,79 @@
+body{
+    width: 100vw !important;
+    overflow-x: hidden !important;
+}
+
+::-webkit-scrollbar {
+
+    width: 8px;
+  
+   
+  
+  }
+  
+  
+  
+  
+  ::-webkit-scrollbar-track {
+  
+    background-color: #000000; /* Custom background color */
+  
+    border-radius: 8px; /* Border radius */
+  
+  }
+  
+  
+  
+  
+  ::-webkit-scrollbar-thumb {
+  
+    background-color: #595959; /* Custom thumb color */
+  
+    border-radius: 8px; /* Border radius */
+  
+  }
+  
+  
+  
+  
+  /* For Firefox */
+  
+  ::-moz-scrollbar {
+  
+    width: 15px;
+  
+  }
+  
+  
+  
+  
+  ::-moz-scrollbar-track {
+  
+    background-color: #ffffff; /* Custom background color */
+  
+    border-radius: 8px; /* Border radius */
+  
+  }
+  
+  
+  
+  
+  ::-moz-scrollbar-thumb {
+  
+    background-color: #888; /* Custom thumb color */
+  
+    border-radius: 15px; /* Border radius */
+  
+  }
+
+  
+  .parent {
+    --scroll-gap: 2px;
+    height: 100vh;
+    overflow: auto;
+    scroll-snap-type: y mandatory;
+  }
+  
+  .child {
+    scroll-snap-align: center;
+  }

@@ -1,0 +1,342 @@
+.card {
+    width: 24%;
+    transition: width 0.5s ease-in-out;
+    display: flex;
+    margin: 0% 0.1% 1% 0.1%;
+}
+
+.card.hovered {
+    cursor: pointer;
+    width: 50%;
+    margin: 0% 1% 1% 1%;
+    /* backdrop-filter: blur(50px); */
+}
+
+.card.expanded {
+    width: 100%;
+    /* margin: 0% 1% 0% 1%; */
+}
+
+.content {
+    padding: 20px;
+    color: red;
+}
+
+.expand-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    background-color: red;
+}
+
+.container {
+    display: flex;
+    /* border: 1px solid red; */
+    justify-content: space-between;
+    /* flex-direction: column; */
+}
+
+.expanded-content {
+    height: 100%;
+    position: absolute;
+    z-index: 7777;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: rgba(0, 0, 0, 0.918);
+    box-shadow: 10px 120px 30px -40px rgb(0, 0, 0) inset;
+}
+
+.cr_btn_card {
+    width: 70%;
+}
+
+.exp_text {
+    /* border: 1px solid red; */
+    height: 100%;
+    width: 90%;
+    color: white;
+    text-align: center;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
+.hash_redport {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.close-btn {
+    background-color: transparent;
+    height: 50px;
+    width: 10%;
+    margin-right: 0%;
+    border: none;
+    /* border: 1px solid red; */
+}
+
+.my_cls_btn {
+    width: 30%;
+    height: 30%;
+}
+
+.RPTS_text {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+#EXPBTN {
+    background-color: transparent;
+    border: none;
+    width: 44%;
+    margin-left: 33%;
+    position: absolute;
+    z-index: 8;
+    margin-top: 400px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.red_mmm {
+    width: 80%;
+}
+
+#Technology {
+    position: absolute !important;
+    top: 15px;
+    font-size: 18px;
+    font-weight: 400;
+    border-left: 2px solid rgb(216, 5, 142);
+    padding-left: 5px;
+    color: white;
+    margin-left: 30%;
+}
+
+#Technology:hover {
+    color: white;
+}
+
+#card1 {
+    /* width: 40%; */
+    height: 460px;
+    background-image: url(../images1/Technology-min.jpg);
+    background-size: cover;
+    background-position: center;
+    border: 2px solid;
+    border-radius: 0px;
+    box-shadow: inset 0 -100px 90px -40px rgb(0, 0, 0),
+        inset 0 100px 130px -30px rgb(0, 0, 0);
+    border-image: linear-gradient(#7700FF, black, #e703e7) 30;
+}
+
+#card2 {
+    box-shadow: inset 0 -100px 90px -40px rgb(0, 0, 0),
+        inset 0 100px 130px -30px rgb(0, 0, 0);
+    background-image: url(../images1/white_trans.jpg);
+    background-size: cover;
+    background-position: center;
+    border: 2px solid rgb(230, 10, 10);
+    border-radius: 0px;
+    border-image: linear-gradient(#7700FF, black, #e703e7) 30;
+}
+
+#card3 {
+    box-shadow: inset 0 -100px 90px -40px rgb(0, 0, 0),
+        inset 0 100px 130px -30px rgb(0, 0, 0);
+    background-image: url(../images1/Financeee-min.jpg);
+    background-size: cover;
+    background-position: center;
+    border: 2px solid rgb(230, 10, 10);
+    border-radius: 0px;
+    border-image: linear-gradient(#7700FF, black, #e703e7) 30;
+}
+
+#card4 {
+    box-shadow: inset 0 -100px 90px -40px rgb(0, 0, 0),
+        inset 0 100px 130px -30px rgb(0, 0, 0);
+    background-image: url(../images1/Ecommerce-min.jpg);
+    background-size: cover;
+    background-position: center;
+    border: 2px solid rgb(230, 10, 10);
+    border-radius: 0px;
+    border-image: linear-gradient(#7700FF, black, #e703e7) 30;
+}
+
+
+
+
+@media screen and (min-width:320px) and (max-width: 480px) {
+
+    .card {
+        width: 90%;
+        margin-left: 5%;
+        margin-bottom: 2%;
+        transition: width 0.5s ease-in-out;
+        display: block;
+    }
+
+    .card.hovered {
+        width: 100%;
+        backdrop-filter: blur(50px);
+    }
+
+    .card.expanded {
+        width: 100%;
+        
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hash_redport {
+        font-size: 30px;
+        font-weight: bolder;
+    }
+
+    .close-btn {
+        background-color: transparent;
+        height: 50px;
+        width: 10%;
+        margin-right: 0%;
+        border: none;
+        /* border: 1px solid red; */
+    }
+
+    .my_cls_btn {
+        width: 80% !important;
+        height: 35% !important;
+    }
+
+    .RPTS_text {
+        font-size: 20px !important;
+        font-weight: bold;
+    }
+
+    .fmt40year {
+        font-size: 12px;
+        width: 100%;
+        text-align: justify;
+    }
+
+    #EXPBTN {
+        margin-top: 330px;
+    }
+
+    #EXPBTN:hover {
+        color: red;
+    }
+
+    #Technology {
+        bottom: 340px !important;
+    }
+
+    #card1,
+    #card2,
+    #card3,
+    #card4 {
+        height: 400px;
+
+    }
+}
+
+/* media query 2 */
+
+@media screen and (min-width:480px) and (max-width: 768px) {
+
+    .card {
+        width: 95%;
+        margin-left: 0%;
+        margin-bottom: 2%;
+        transition: width 0.5s ease-in-out;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .card.hovered {
+        width: 100%;
+        backdrop-filter: blur(50px);
+    }
+
+    .card.expanded {
+        width: 100%;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hash_redport {
+        font-size: 30px;
+        font-weight: bolder;
+    }
+
+    .close-btn {
+        background-color: transparent;
+        height: 50px;
+        width: 10%;
+        margin-right: 0%;
+        border: none;
+        /* border: 1px solid red; */
+    }
+
+    .my_cls_btn {
+        width: 40% !important;
+        height: 40% !important;
+    }
+
+    .RPTS_text {
+        font-size: 25px !important;
+        font-weight: bold;
+    }
+
+    .fmt40year {
+        font-size: 14px;
+        width: 100%;
+        text-align: justify;
+    }
+
+    #EXPBTN {
+        margin-top: 300px;
+    }
+
+    #EXPBTN:hover {
+        color: red;
+    }
+
+    #Technology {
+        bottom: 260px !important;
+    }
+
+    #card1,
+    #card2,
+    #card3,
+    #card4 {
+        height: 350px;
+    }
+    
+    #Technology {
+        bottom: 290px !important;
+    }
+}
+
+
+/* media query 3 */
+
+@media screen and (min-width:770px) and (max-width: 1024px) {
+
+
+    .my_cls_btn {
+        width: 60% !important;
+        height: 45% !important;
+    }
+
+    .fmt40year {
+        font-size: 15px;
+        width: 100%;
+        text-align: justify;
+    }
+}

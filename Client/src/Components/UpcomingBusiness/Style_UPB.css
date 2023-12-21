@@ -1,0 +1,653 @@
+#UCB_firstpage_main_div {
+    width: 100%;
+    height: 100vh;
+    /* background-color: black; */
+    color: white;
+    text-align: end;
+    padding-top: 150px;
+    background-image: url(../images1/UPCOMING.jpg);
+    box-shadow: 0 100px 300px 50px black inset;
+    background-size: 100% 100%;
+    position: relative;
+    z-index: 2;
+}
+
+.Upcoming_Businesses {
+    border: 2px solid aqua;
+    width: 15%;
+    margin-left: 77%;
+    text-align: center;
+    font-size: 20px;
+    padding: 5px 0px 5px 0px;
+    font-weight: bold;
+}
+
+.btn_rm {
+    width: 11%;
+    margin-left: 10%;
+}
+
+.btn_rm:hover {
+    scale: 1.1;
+}
+
+.UCB_sideborder_maindiv {
+    border-right: 2px solid;
+    border-image: linear-gradient(#ff006f, #9d00fa) 1;
+    margin-right: 8%;
+    padding-right: 20px;
+}
+
+.UCB_sideborder_subdiv1 {
+    font-size: 35px;
+    width: 45%;
+    margin-left: 55%;
+    font-weight: bolder;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(to left, #ff006f, #9d00fa);
+}
+
+.UCB_sideborder_subdiv2 {
+    width: 40%;
+    margin-left: 60%;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.UPB_readmore {
+    margin-right: 8%;
+    font-size: 20px;
+    font-weight: bold;
+    /* border: 1px solid red; */
+}
+
+.arrow_right_UCB {
+    position: absolute;
+    bottom: 10%;
+    left: 88%;
+    transform: translate(-50%, -50%);
+    transform: rotate(360deg);
+    cursor: pointer;
+}
+
+.arrow_right_UCB span {
+    display: flex;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-bottom: 5px solid white;
+    border-right: 5px solid white;
+    transform: rotate(90deg);
+    margin: -10px;
+    animation: animate 2s infinite;
+}
+
+.arrow_right_UCB span:nth-child(2) {
+    animation-delay: -0.2s;
+}
+
+.arrow_right_UCB span:nth-child(3) {
+    animation-delay: -0.4s;
+}
+
+@keyframes animate {
+
+    0% {
+        opacity: 0;
+        transform: rotate(45deg) translate(-20px, -20px);
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        transform: rotate(45deg) translate(20px, 20px);
+    }
+}
+
+/* section 2 */
+.Up_slider-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    z-index: 2;
+    /* border: 5px solid red; */
+    box-sizing: border-box;
+    /* background-color: red !important; */
+}
+
+.Up_slider-button {
+    /* position: absolute; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    border: none;
+    color: #000;
+    font-size: 24px;
+    cursor: pointer;
+    outline: none;
+    margin: 0;
+}
+
+.Up_prev_slide {
+    position: absolute;
+    left: 1%;
+    background: rgba(128, 128, 128, 0.171);
+    padding: 14px;
+    border-radius: 100%;
+    top: 46%;
+    font-weight: 700;
+}
+
+.Up_next_slide {
+    position: absolute;
+    right: 1%;
+    background: rgba(128, 128, 128, 0.171);
+    padding: 14px;
+    border-radius: 100%;
+    top: 46%;
+}
+
+.Up_slider-button:hover {
+    background-color: grey;
+}
+
+.Up_slide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+
+}
+
+div.Up_image_main {
+    box-shadow: inset -10px 0 10px -10px black;
+}
+
+.Up_image {
+    width: 100%;
+    height: 100%;
+}
+
+.Up_slider_text {
+    position: absolute;
+    /* border: 2px solid red; */
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
+    top: 10%;
+    width: 70%;
+    height: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-left: 20px;
+    left: 25%;
+}
+
+.Up_text {
+    margin-top: 16px;
+}
+
+.view_All_btn{
+    position: absolute !important;
+    color: white !important;
+    width: 180px;
+    margin-left: 70px;
+    border: 2px solid #ff006f;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.406);
+    left: 0px;
+    bottom: 40px;
+    padding: 5px 0px 5px 0px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.view_All_btn:hover{
+    background-color: #ff006f;
+    color: white !important;
+    border: none;
+}
+
+.Up_small-slider {
+    display: flex;
+    position: absolute;
+    bottom: 28%;
+    width: 35%;
+    height: 41%;
+    transform: rotate(90deg);
+    /* Rotate the entire slider */
+    left: -7%;
+    overflow: hidden;
+    /* Hide overflow to clip the notch */
+}
+
+.Up_small-slider .Up_small-slider-image {
+    position: relative;
+    cursor: pointer;
+}
+
+.Up_small-slider .Up_small-slider-image.active {
+    -webkit-clip-path: polygon(100% 0, 100% 17%, 100% 42%, 87% 50%, 100% 58%, 100% 100%, 0 100%, 0 0, 31% 0, 81% 0);
+    clip-path: polygon(100% 0, 100% 17%, 100% 42%, 87% 50%, 100% 58%, 100% 100%, 0 100%, 0 0, 31% 0, 81% 0);
+    z-index: 1;
+    /* border: 2px solid #ff0000; */
+}
+
+.inner-border {
+    position: absolute;
+    top: 1%;
+    left: 81%;
+    width: 19%;
+    height: 25%;
+    /* Adjust the height of the inner notch as needed */
+    z-index: -1;
+    /* Place the border element behind the main shape */
+    /* border: 2px solid #ff0000; */
+    /* You can change the color and width as needed */
+}
+
+.Up_small-slider .Up_small-slider-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* Maintain image aspect ratio */
+}
+
+.show_carousel {
+    width: 100%;
+    height: 100%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+}
+
+.Up_small-slider-image {
+    width: 170%;
+    height: 50%;
+    /* margin-right: 8px; */
+    cursor: pointer;
+    opacity: 0.7;
+    position: relative;
+    transition: opacity 0.3s;
+    rotate: 270deg;
+    box-shadow: inset 800px 900px 1200px black;
+}
+
+.Up_small-slider-image.Up_activeSlideImg {
+    opacity: 1;
+    box-shadow: 1px 1px 15px;
+    border: 3px solid;
+    border-image: linear-gradient(180deg, #d8007e, #7003ff) 30;
+    transform: scale(1.12);
+}
+
+.Up_small-slider-indicator {
+    position: absolute;
+    bottom: 0;
+    height: 4px;
+    background-color: #000;
+    transition: transform 0.3s ease-in-out;
+}
+
+.Up_small_slider_text {
+    position: absolute;
+    left: 65%;
+    bottom: 50%;
+    color: white;
+    rotate: 270deg;
+    width: 100%;
+}
+
+.Up_small-slider.activeSlideImg .Up_small-slider-indicator {
+    transform: translateX(calc(88px * var(--Slideactive-index)));
+}
+
+.react-multi-carousel-item:last-child {
+    display: none;
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .Up_slider-container {
+        height: 100vh;
+    }
+
+    .Up_slide {
+        height: 99%;
+    }
+
+    .Up_small-slider {
+        bottom: 35%;
+        width: 45%;
+        left: -12%;
+    }
+
+    .Up_small-slider-image {
+        width: 100%;
+    }
+
+    .Up_small_slider_text {
+        position: absolute;
+        left: 30%;
+        bottom: 37%;
+        color: white;
+        rotate: 270deg;
+        width: 100%;
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .Up_small-slider {
+        position: relative;
+    }
+
+    .Up_small-slider .Up_small-slider-image {
+        position: relative;
+        cursor: pointer;
+    }
+
+    .Up_small-slider .Up_small_slider_text.active:before {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        border-width: 10px;
+        border-style: solid;
+        border-color: transparent transparent #fff transparent;
+        z-index: 1;
+    }
+
+    .react-multi-carousel-item {
+        height: 100px;
+    }
+
+    .Up_small_slider_text .Up_small_slider_para {
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .Up_small-slider {
+        display: none;
+    }
+
+    .Up_slider-container {
+        height: auto;
+        /* border: 1px solid red; */
+        background-color: black;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .Up_slider_text {
+        top: 20% !important;
+        left: 15%;
+        height: auto;
+        padding-top: 20px;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 768px) {
+    .Up_slider-container {
+        height: auto;
+    }
+
+    .Up_small-slider {
+        bottom: 40%;
+        width: 42%;
+    }
+
+    .Up_slider_text {
+        left: 30%;
+        width: 60%;
+    }
+
+    .Up_small_slider_para {
+        font-size: 16px;
+    }
+}
+
+/* third section  */
+
+#UCB_TSP_main_div {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    /* border: 1px solid white; */
+    position: relative;
+    z-index: 2;
+}
+
+/* media query 1 */
+
+@media screen and (min-width:320px) and (max-width:480px) {
+
+    #UCB_firstpage_main_div {
+        height: 100vh;
+        /* background-color: black; */
+        padding-top: 45%;
+        padding-bottom: 0px;
+        background-image: url(.././images1/Businesses_MV.jpg);
+        box-shadow: none;
+        background-color: black;
+    }
+
+    .Upcoming_Businesses {
+        width: 50%;
+        margin-left: 42%;
+        font-size: 17px;
+    }
+
+    .UCB_sideborder_subdiv1 {
+        font-size: 20px;
+        width: 90%;
+        margin-left: 10%;
+    }
+
+    .UCB_sideborder_subdiv2 {
+        width: 90%;
+        margin-left: 10%;
+        font-size: 13px;
+        font-weight: 500;
+    }
+
+    .btn_rm {
+        width: 40%;
+        margin-left: 70%;
+    }
+
+    .UPB_readmore {
+        margin-right: 10%;
+        font-size: 18px;
+        font-weight: bold;
+        padding-bottom: 50px;
+    }
+
+    .arrow_right_UCB {
+        bottom: 15%;
+        left: 80%;
+    }
+
+    .arrow_right_UCB span {
+        width: 1.25rem;
+        height: 1.25rem;
+        border-bottom: 4px solid white;
+        border-right: 4px solid white;
+    }
+}
+
+
+/* media query 2 */
+
+@media screen and (min-width:480px) and (max-width:768px) {
+
+
+    .btn_rm {
+        width: 20%;
+    }
+
+    #UCB_firstpage_main_div {
+        height: 100vh;
+        /* background-color: black; */
+        padding-top: 120px;
+        padding-bottom: 100px;
+
+    }
+
+    .Upcoming_Businesses {
+        width: 30%;
+        margin-left: 62%;
+        font-size: 18px;
+    }
+
+
+    .UCB_sideborder_subdiv1 {
+        font-size: 30px;
+        width: 60%;
+        margin-left: 40%;
+    }
+
+    .UCB_sideborder_subdiv2 {
+        width: 60%;
+        margin-left: 40%;
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .UPB_readmore {
+        /* border: 1px solid red; */
+        margin-right: 10%;
+        font-size: 18px;
+        font-weight: bold;
+        padding-bottom: 50px;
+    }
+
+    .arrow_right_UCB {
+        bottom: 10%;
+        left: 88%;
+    }
+
+    .arrow_right_UCB span {
+        width: 1.25rem;
+        height: 1.25rem;
+        border-bottom: 4px solid white;
+        border-right: 4px solid white;
+    }
+    .view_All_btn {
+        margin-left: 25px;
+    }
+
+}
+
+
+/* media query 3 */
+
+@media screen and (min-width:770px) and (max-width:1024px) {
+
+    #UCB_firstpage_main_div {
+        height: 100vh;
+        /* background-color: black; */
+        padding-top: 120px;
+        padding-bottom: 100px;
+    }
+
+    .Upcoming_Businesses {
+        width: 25%;
+        margin-left: 65%;
+        font-size: 20px;
+    }
+
+
+    .UCB_sideborder_subdiv1 {
+        font-size: 35px;
+        width: 60%;
+        margin-left: 40%;
+    }
+
+    .UCB_sideborder_subdiv2 {
+        width: 60%;
+        margin-left: 40%;
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .UPB_readmore {
+        margin-right: 15%;
+        font-size: 20px;
+        font-weight: bold;
+        padding-bottom: 50px;
+    }
+
+    .arrow_right_UCB {
+        bottom: 10%;
+        left: 88%;
+    }
+
+    .arrow_right_UCB span {
+        width: 1.25rem;
+        height: 1.25rem;
+        border-bottom: 4px solid white;
+        border-right: 4px solid white;
+    }
+}
+
+
+/* media query 4 */
+
+@media screen and (min-width:1025px) and (max-width:1440px) {
+
+    #UCB_firstpage_main_div {
+        height: 100vh;
+        /* background-color: black; */
+        padding-top: 120px;
+        padding-bottom: 100px;
+    }
+
+    .Upcoming_Businesses {
+        width: 20%;
+        margin-left: 70%;
+        font-size: 25px;
+    }
+
+
+    .UCB_sideborder_subdiv1 {
+        font-size: 45px;
+        width: 50%;
+        margin-left: 50%;
+    }
+
+    .UCB_sideborder_subdiv2 {
+        width: 50%;
+        margin-left: 50%;
+        font-size: 22px;
+        font-weight: 500;
+    }
+
+    .UPB_readmore {
+        margin-right: 15%;
+        font-size: 20px;
+        font-weight: bold;
+        padding-bottom: 50px;
+    }
+
+    .arrow_right_UCB {
+        bottom: 10%;
+        left: 88%;
+    }
+
+    .arrow_right_UCB span {
+        width: 1.5rem;
+        height: 1.5rem;
+        border-bottom: 5px solid white;
+        border-right: 5px solid white;
+    }
+}

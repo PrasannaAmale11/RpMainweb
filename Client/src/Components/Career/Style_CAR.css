@@ -1,0 +1,2661 @@
+/* first section */
+
+#FuturaMediumBT {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../images1/RP_joinus1.jpg");
+    background-size: 100% 100%;
+    position: relative;
+    z-index: 2;
+    color: aliceblue;
+    /* border: 1px solid red; */
+}
+
+.dotted_pic {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+.Career_colorbor {
+    border: 2px solid rgb(14, 194, 194);
+    width: 8%;
+    font-size: 25px;
+    text-align: center;
+    margin-left: 84.5%;
+    /* font-weight: 700; */
+    font-family: 'Jost', sans-serif;
+    font-weight: 500;
+}
+
+.All_common {
+    padding-top: 200px;
+}
+
+.join_us_mainDiv {
+    text-align: end;
+    border-right: 2px solid white;
+    width: 92.5%;
+    padding-right: 20px;
+    background-color: transparent !important;
+}
+
+.join_us_clrtext {
+    font-family: 'Jost', sans-serif;
+    font-weight: 900;
+    font-size: 35px;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(to left, #9d00fa, #ff006f 10%);
+}
+
+.join_us_simText {
+    margin-left: 70%;
+    font-size: 19px;
+    font-weight: 600;
+    width: 30%;
+}
+
+.car_rmb {
+    width: 11%;
+    margin-left: 82%;
+    cursor: pointer;
+}
+/* .car_rmb:hover{
+   scale: 1.1;
+} */
+
+.hash_one1 {
+    font-size: 150px;
+    position: absolute;
+    z-index: 0;
+    font-weight: 600;
+    color: white;
+    opacity: 5%;
+    left: 83%;
+}
+
+.TRANSPORTATION {
+    font-size: 90px;
+    position: absolute;
+    z-index: 0;
+    font-weight: bolder;
+    color: white;
+    opacity: 5%;
+    left: 10%;
+    bottom: 5%;
+}
+
+/* down Arrow */
+.arrow_rightrrr {
+    position: absolute;
+    bottom: 10%;
+    left: 91%;
+    transform: translate(-50%, -50%);
+    transform: rotate(360deg);
+    cursor: pointer;
+}
+
+.arrow_rightrrr span {
+    display: block;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-bottom: 5px solid white;
+    border-right: 5px solid white;
+    transform: rotate(90deg);
+    margin: -10px;
+    animation: animate 2s infinite;
+}
+
+.arrow_rightrrr span:nth-child(2) {
+    animation-delay: -0.2s;
+}
+
+.arrow_rightrrr span:nth-child(3) {
+    animation-delay: -0.4s;
+}
+
+@keyframes animate {
+
+    0% {
+        opacity: 0;
+        transform: rotate(45deg) translate(-20px, -20px);
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        transform: rotate(45deg) translate(20px, 20px);
+    }
+}
+
+/* second  page*/
+
+.WORKING {
+    position: absolute;
+    left: 800px;
+    top: 10px;
+    font-size: 100px;
+    font-weight: 600;
+    color: white;
+    opacity: 5%;
+}
+
+#CP_second_sec_main_page {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    /* border: 1px solid red; */
+    position: relative;
+    z-index: 2;
+    background-image: url("../images1/offset-5.png");
+    background-repeat: no-repeat;
+    background-size: 80% 80%;
+    background-position: center;
+}
+
+.We_Are_RedPhantom_CP2 {
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(to right, #ff006f, #9d00fa 20%);
+    margin-left: 15%;
+    font-size: 35px;
+    font-weight: 700;
+    padding-top: 60px;
+    padding-bottom: 10px;
+}
+
+#CP_second_sec_three_cards {
+    width: 82%;
+    margin-left: 9%;
+    /* border: 1px solid red; */
+    height: 550px;
+    display: flex;
+}
+
+.CP_second_sec_three_cards_sunCard {
+    width: 30%;
+    border: 2px solid white;
+    height: 550px;
+}
+
+.TC_C1 {
+    width: 26%;
+    margin-right: 4%;
+}
+
+.TC_C2 {
+    width: 40%;
+    margin-right: 4%;
+    color: white;
+    padding: 20px;
+    text-align: justify;
+    font-size: 16px;
+    background-color: black;
+    border-image: linear-gradient(to top, #ff006f, black, #9d00fa) 30;
+}
+
+.TC_C3 {
+    width: 26%;
+}
+
+.carr_text_rmbtn {
+    width: 40%;
+    margin-left: 65%;
+    cursor: pointer;
+}
+
+.Card_div_under_sub_1 {
+    width: 100%;
+    height: 50%;
+    background-color: black;
+    padding-top: 40px;
+}
+
+.Card_div_under_sub_2 {
+    width: 100%;
+    height: 50%;
+    background-color: white;
+    padding-top: 40px;
+}
+
+.Card_div_under_sub_3 {
+    width: 100%;
+    height: 50%;
+    background-color: white;
+    padding-top: 50px;
+}
+
+.Card_div_under_sub_4 {
+    width: 100%;
+    height: 50%;
+    background-color: #9d00fa;
+    padding-top: 30px;
+}
+
+.For_more_than_40,
+.FMT_40_year {
+    color: white;
+    font-size: 12px;
+    border-left: 2px solid white;
+    margin-left: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.hashtag_jobs {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.Opprtunities {
+    font-size: 35px;
+    font-weight: bolder;
+    margin-left: 40px;
+}
+
+.We_do_not_charge,
+.Explore_a_career {
+    border-left: 2px solid #ff006f;
+    margin-left: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.Programs {
+    font-size: 35px;
+    font-weight: bolder;
+    margin-left: 40px;
+}
+
+.hashtag_career {
+    color: white;
+    font-size: 35px;
+    font-weight: bolder;
+    margin-left: 120px;
+}
+
+.triangle-down {
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 25px solid rgb(10, 10, 10);
+    position: absolute;
+    left: 25%;
+}
+
+.triangle-up {
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 25px solid #9d00fa;
+    position: absolute;
+    left: 72%;
+    top: 370px;
+}
+
+.vis_arrow_right11 {
+    position: absolute;
+    transform: rotate(270deg);
+    left: 42%;
+    top: 50PX;
+}
+
+.vis_arrow_right11 span {
+    display: block;
+    width: 1.3rem;
+    height: 1.3rem;
+    border-bottom: 4px solid white;
+    border-right: 4px solid white;
+    transform: rotate(90deg);
+    margin: 0px;
+    animation: animate 2s infinite;
+}
+
+.vis_arrow_right11 span:nth-child(2) {
+    animation-delay: -0.2s;
+}
+
+.vis_arrow_right11 span:nth-child(3) {
+    animation-delay: -0.4s;
+}
+
+/* third section */
+
+#CA_thred_page_mainDiv {
+    /* border: 1px solid white !important; */
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    position: relative;
+    z-index: 2;
+}
+
+.REDPHANTOM_BIG {
+    position: absolute;
+    font-size: 90PX;
+    font-weight: bolder;
+    left: 50%;
+    top: 40px;
+    color: white;
+    opacity: 7%;
+}
+
+.We_Are_RedPhantom_CP3 {
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(to right, #ff006f, #9d00fa 20%);
+    margin-left: 15%;
+    font-size: 35px;
+    font-weight: 700;
+    padding-top: 60px;
+    padding-bottom: 10px;
+}
+
+.CP3_Card_main_div {
+    /* border: 1px solid red; */
+    width: 82%;
+    margin-left: 9%;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.CP3_Card_Sub_cards {
+    border: 2px solid;
+    border-image: linear-gradient(to top, #ff006f, #9d00fa 120%) 1;
+    height: 270px;
+    width: 25%;
+}
+
+.SC1 {
+    width: 24.5%;
+    background-image: url('../images1/tanajisir.png');
+    background-size: cover;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    padding-top: 230px;
+    padding-left: 20px;
+    border-right: none;
+}
+
+.SC2 {
+    width: 24.5%;
+    margin-right: 2%;
+    background-color: white;
+    border-left: none;
+}
+
+.SC3 {
+    width: 24.5%;
+    background-image: url('../images1/viki.png');
+    background-size: cover;
+    background-position-x: 0px;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    padding-top: 230px;
+    padding-left: 20px;
+    border-right: none;
+}
+
+.SC4 {
+    width: 24.5%;
+    background-color: white;
+    border-left: none;
+}
+
+.weath_creation {
+    position: absolute;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    top: 660px;
+    left: 13%;
+    z-index: 5;
+}
+
+.SC5 {
+    width: 16.5%;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    padding-top: 200px;
+    padding-left: 20px;
+    background-color: #6c4848;
+    border-right: none;
+}
+
+.SC6 {
+    width: 16.5%;
+    margin-right: 2%;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    padding-top: 200px;
+    padding-left: 20px;
+    background-color: #666;
+    border-left: none;
+}
+
+.SC7 {
+    width: 23%;
+    background-image: url('../images1/TanajiMore.png');
+    background-size: cover;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    padding-top: 230px;
+    padding-left: 20px;
+    border-right: none;
+}
+
+.SC8 {
+    width: 23%;
+    margin-right: 2%;
+    border-left: none;
+    background-image: linear-gradient(to right, #ff006f, #9d00fa 120%);
+}
+
+.SC9 {
+    width: 17%;
+    background-image: url('../images1/dhansir.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    padding-top: 200px;
+    text-align: center;
+}
+
+.card_text_head_hash {
+    font-weight: 700;
+    font-size: 17px;
+    padding-left: 20px;
+    padding-top: 25px;
+}
+
+.card_text_color_text_TM {
+    font-weight: 700;
+    padding: 0px 20px 0px 10px;
+    font-size: 17px;
+    text-align: start;
+    margin-left: 4%;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(to right, #ff006f, #9d00fa 100%);
+}
+
+.card_text_normal_CBL {
+    border-left: 3px solid;
+    margin-left: 20px;
+    padding: 0px 20px 0px 10px;
+    text-align: justify;
+    border-image: linear-gradient(to bottom, #ff006f, #9d00fa 120%) 1;
+}
+
+.card_text_head_hash1 {
+    font-weight: 700;
+    font-size: 17px;
+    padding-left: 20px;
+    padding-top: 25px;
+}
+
+.card_text_color_text_TM1 {
+    color: white;
+    font-weight: 700;
+    font-size: 17px;
+    text-align: start;
+    width: 90%;
+    margin-left: 8%;
+}
+
+.card_text_normal_CBL1 {
+    color: white;
+    border-left: 3px solid;
+    margin-left: 20px;
+    padding: 0px 20px 0px 10px;
+    text-align: justify;
+}
+
+.triangle-left,
+.triangle-left1,
+.triangle-left2 {
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-right: 50px solid white;
+    position: absolute;
+    top: 400px;
+    left: 28.5%;
+    border-bottom: 20px solid transparent;
+}
+
+.triangle-left1 {
+    top: 400px;
+    left: 68.5%;
+}
+
+.triangle-left2 {
+    border-right: 50px solid #ff006f;
+    top: 800px;
+    left: 54.5%;
+}
+
+.vis_arrow_right111 {
+    position: absolute;
+    transform: rotate(270deg);
+    left: 42%;
+    top: 50PX;
+}
+
+.vis_arrow_right111 span {
+    display: block;
+    width: 1.3rem;
+    height: 1.3rem;
+    border-bottom: 4px solid white;
+    border-right: 4px solid white;
+    transform: rotate(90deg);
+    margin: 0px;
+    animation: animate 2s infinite;
+}
+
+.vis_arrow_right111 span:nth-child(2) {
+    animation-delay: -0.2s;
+}
+
+.vis_arrow_right111 span:nth-child(3) {
+    animation-delay: -0.4s;
+}
+
+
+/* fourth section */
+#FUTURE {
+    position: absolute !important;
+    font-size: 100px;
+    rotate: 90deg;
+    font-weight: bolder;
+    left: 82%;
+    top: 55%;
+    opacity: 5%;
+    color: white;
+}
+
+#RESPONSIBILITIES {
+    position: absolute !important;
+    top: 7%;
+    font-size: 85px;
+    font-weight: bolder;
+    left: 47%;
+    opacity: 5%;
+    color: white;
+}
+
+#LIFE_ll {
+    position: absolute !important;
+    top: 70%;
+    left: 0%;
+    rotate: 270deg;
+    font-size: 100px;
+    font-weight: bolder;
+    opacity: 5%;
+    color: white;
+}
+
+#Career_fourth_page_MainDiv {
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    /* border: 1px solid white; */
+    position: relative;
+    z-index: 2;
+}
+
+#Main_all_card_div {
+    /* border: 1px solid red; */
+    width: 82%;
+    height: auto;
+    margin-left: 9%;
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    justify-content: space-between;
+}
+
+.sub_card_div {
+    border: 2px solid;
+    border-image: linear-gradient(to top, #ff006f, #9d00fa 70%) 1;
+    width: 24%;
+    height: 250px;
+    margin-bottom: 20px;
+}
+
+.card1 {}
+
+.card2 {
+    width: 35%;
+    height: auto;
+}
+
+.card3 {
+    height: 250px;
+    border: none;
+}
+
+.All_cards_main_head {
+    font-size: 22px;
+    font-weight: bold;
+    border-left: 3px solid;
+    margin-left: 15px;
+    padding-left: 10px;
+    padding-right: 15px;
+    margin-top: 15px;
+    border-image: linear-gradient(to top, #ff006f, #9d00fa 90%) 1;
+}
+
+.All_cards_Simple_text {
+    padding: 0px 15px 0px 15px;
+    text-align: justify;
+    font-size: 15px;
+}
+
+.Fix_Your_fifth {
+    font-size: 22px;
+    font-weight: bold;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(to left, #9d00fa, #ff006f 90%);
+    padding-left: 30px;
+    margin-top: 10px;
+}
+
+.Sakshi {
+    padding-left: 25px;
+}
+
+.Life_At_RedPhantom {
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(to right, #ff006f, #9d00fa 20%);
+    margin-left: 15%;
+    font-size: 35px;
+    font-weight: 700;
+    padding-top: 80px;
+}
+
+.Life_At_RedPhantom_below {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 15%;
+    margin-bottom: 20px;
+}
+
+.vis_arrow_right1111 {
+    position: absolute;
+    transform: rotate(270deg);
+    left: 40%;
+    top: 70PX;
+}
+
+.vis_arrow_right1111 span {
+    display: block;
+    width: 1.3rem;
+    height: 1.3rem;
+    border-bottom: 4px solid white;
+    border-right: 4px solid white;
+    transform: rotate(90deg);
+    margin: 0px;
+    animation: animate 2s infinite;
+}
+
+.vis_arrow_right1111 span:nth-child(2) {
+    animation-delay: -0.2s;
+}
+
+.vis_arrow_right1111 span:nth-child(3) {
+    animation-delay: -0.4s;
+}
+
+@keyframes animate {
+    0% {
+        opacity: 0;
+        transform: rotate(45deg) translate(-20px, -20px);
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        transform: rotate(45deg) translate(20px, 20px);
+    }
+}
+
+/* fifth section */
+
+#carr_fifth_section_main_div {
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    position: relative;
+    z-index: 2;
+    display: flex;
+    background-image: url("../images1/offset-5.png");
+    background-repeat: no-repeat;
+    background-size: 70% 70%;
+    background-position: center;
+    color: white;
+}
+
+.carr_fifth_section_sub1 {
+    width: 35%;
+    margin-left: 15%;
+    /* border: 1px solid white; */
+    box-sizing: border-box;
+    text-align: center;
+    padding-top: 230px;
+}
+
+.carr_fifth_section_sub2 {
+    width: 50%;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    padding-top: 200px;
+    position: relative;
+}
+
+.founderImg {
+    width: 75%;
+    position: absolute;
+    z-index: 9;
+    top: 18%;
+    /* background-color: tomato; */
+}
+
+.carrer_youtube_wrapper {
+    width: 10%;
+    position: absolute;
+    top: 70%;
+    right: 45%;
+    z-index: 10;
+    border-radius: 100%;
+    background-color: white;
+    cursor: pointer;
+    /* animation: youtube 2s ease-out infinite; */
+    /* Apply the animation to .carrer_youtube_wrapper */
+}
+
+
+
+.carrer_youtube_wrapper::after,
+.carrer_youtube_wrapper::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 100%;
+    opacity: 0.7;
+    z-index: -1;
+    display: block;
+    background-color: #f4f4f4;
+    animation: youtube 2s ease-out infinite;
+}
+
+.carrer_youtube_wrapper::before {
+    animation-delay: 0.5s;
+}
+
+.carrer_youtube_wrapper::after {
+    animation-delay: 1s;
+}
+
+@keyframes youtube {
+    100% {
+        opacity: 0;
+        transform: scale(1.5);
+    }
+}
+
+.carAA {
+    box-sizing: border-box;
+    font-size: 35px;
+    font-weight: bolder;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(to right, #ff006f, #9d00fa 90%);
+}
+
+.carBB {
+    font-size: 18px;
+    font-weight: bold;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.carCC {
+    font-style: italic;
+    font-size: 22px;
+    font-weight: bolder
+}
+
+.carDD {
+    font-style: italic;
+    font-weight: 700;
+    color: #b8b5b5;
+}
+
+/* animation */
+
+.animationP {
+    position: relative;
+    width: 200px;
+    height: 200px;
+}
+
+.circleP {
+    animation-duration: 4s;
+    animation-name: pulsePP;
+    animation-iteration-count: infinite;
+    opacity: 0;
+    background: transparent;
+    border: 3px solid rgba(128, 128, 128, 0.349);
+    border-radius: 50%;
+    position: absolute;
+    top: -5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: 1s;
+}
+
+.circle-1 {
+    height: 170px;
+    width: 170px;
+    animation-delay: .10s;
+}
+
+.circle-2 {
+    height: 220px;
+    width: 220px;
+    animation-delay: .20s;
+}
+
+.circle-3 {
+    height: 270px;
+    width: 270px;
+    animation-delay: .30s;
+}
+
+.circle-4 {
+    height: 320px;
+    width: 320px;
+    animation-delay: .40s;
+}
+
+.circle-5 {
+    height: 370px;
+    width: 370px;
+    animation-delay: .50s;
+}
+
+.circle-6 {
+    height: 420px;
+    width: 420px;
+    animation-delay: .60s;
+}
+
+.circle-7 {
+    height: 470px;
+    width: 470px;
+    animation-delay: .70s;
+}
+
+.circle-8 {
+    height: 520px;
+    width: 520px;
+    animation-delay: .80s;
+}
+
+@keyframes pulsePP {
+    from {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 10;
+    }
+
+    to {
+        opacity: -10;
+    }
+}
+
+
+/* media query 1 */
+
+@media screen and (min-width:320px) and (max-width: 480px) {
+
+    .startnow_five,
+    .succsee_five,
+    .future_five,
+    #FUTURE,
+    #RESPONSIBILITIES,
+    #LIFE_ll,
+    .WORKING,
+    .REDPHANTOM_BIG,
+    .hash_one1,
+    .TRANSPORTATION {
+        display: none;
+    }
+
+    /* first section */
+    #FuturaMediumBT {
+        height: 100vh;
+        /* background-image: url("../images1/herohome.jpg"); */
+        background-image: none;
+        background-color: #000;
+        padding-bottom: 250px;
+    }
+
+    .dotted_pic {
+        display: none;
+    }
+
+    .car_rmb {
+        width: 50%;
+        margin-left: 50%;
+    }
+    .carr_text_rmbtn {
+        width: 100%;
+        margin-left: 45%;
+        cursor: pointer;
+    }
+    
+    
+
+    .Career_colorbor {
+        width: 25%;
+        font-size: 20px;
+        font-weight: bolder;
+        margin-left: 65%;
+    }
+
+    .All_common {
+        padding-top: 150px;
+    }
+
+    .join_us_mainDiv {
+        text-align: end;
+        border-right: 3px solid white;
+        width: 90%;
+        padding-right: 20px;
+    }
+
+    .join_us_simText {
+        margin-left: 20%;
+        font-size: 19px;
+        font-weight: 600;
+        width: 80%;
+    }
+
+    .hash_one1 {
+        left: 62%;
+    }
+
+    .TRANSPORTATION {
+        font-size: 35px;
+        left: 8%;
+        bottom: 5%;
+    }
+
+    /* down Arrow */
+    .arrow_rightrrr {
+        bottom: 15%;
+        left: 85%;
+    }
+
+    .arrow_rightrrr span {
+        width: 1.5rem;
+        height: 1.5rem;
+        border-bottom: 4px solid white;
+        border-right: 4px solid white;
+    }
+
+    /* second  page*/
+
+    .We_Are_RedPhantom_CP3 {
+        margin-left: 5%;
+        font-size: 25px;
+        font-weight: 700;
+        padding-bottom: 20px;
+        border: 1px solid white !;
+    }
+
+    .We_Are_RedPhantom_CP2 {
+        padding-top: 4%;
+        /* border: 1px solid red; */
+        margin-left: 0%;
+        padding-left: 5%;
+        font-size: 25px;
+    }
+
+    #CP_second_sec_main_page {
+        padding-bottom: 50px;
+        padding-top: 30px;
+        height: auto;
+        background-color: black;
+        /* border: 1px solid red; */
+    }
+
+    #CP_second_sec_three_cards {
+        width: 100%;
+        margin-left: 0%;
+        /* border: 1px solid red; */
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom: 20px;
+    }
+
+    .CP_second_sec_three_cards_sunCard {
+        margin-bottom: 20px;
+        height: auto;
+    }
+
+    .TC_C1 {
+        width: 85%;
+        margin-left: 7.5%;
+    }
+
+    .TC_C2 {
+        width: 85%;
+        margin-left: 7.5%;
+        font-size: 15px;
+    }
+
+    .TC_C3 {
+        width: 85%;
+        margin-left: 7.5%;
+    }
+
+    .Card_div_under_sub_1 {
+        height: auto;
+    }
+
+    .Card_div_under_sub_2 {
+        height: auto;
+        padding-bottom: 15px;
+    }
+
+    .Card_div_under_sub_3 {
+        height: auto;
+        padding-top: 30px;
+        padding-bottom: 15px;
+    }
+
+    .Card_div_under_sub_4 {
+        height: auto;
+        padding-bottom: 15px;
+    }
+
+    .hashtag_jobs {
+        font-size: 30px;
+    }
+
+    .Opprtunities {
+        font-size: 30px;
+    }
+
+    .hashtag_career {
+        margin-left: 40%;
+    }
+
+    .triangle-down {
+        left: 70%;
+    }
+
+    .triangle-up {
+        left: 70%;
+        top: 81.8%;
+    }
+
+
+    .vis_arrow_right11 {
+        top: 2.7%;
+        left: 88%;
+    }
+
+    .vis_arrow_right11 span {
+        width: 1rem;
+        height: 1rem;
+        border-bottom: 3.2px solid white;
+        border-right: 3.2px solid white;
+        margin: -10px;
+    }
+
+    /* third section */
+
+    #CA_thred_page_mainDiv {
+        /* border: 1px solid white; */
+        width: 100%;
+        height: auto;
+        background-color: black;
+        position: relative;
+        z-index: 2;
+    }
+
+    .We_Are_RedPhantom_CP3 {
+        padding-top: 0px;
+    }
+
+    .CP3_Card_main_div {
+        /* border: 1px solid red; */
+        width: 90%;
+        margin-left: 5%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .CP3_Card_Sub_cards {
+        /* border: 1px solid yellow; */
+        height: auto;
+        width: 50%;
+    }
+
+    .SC1 {
+        width: 50%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-bottom: 10px;
+    }
+
+    .SC2 {
+        width: 50%;
+        margin-right: 0%;
+        background-color: white;
+        margin-bottom: 10px;
+    }
+
+    .SC3 {
+        width: 50%;
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin-bottom: 10px;
+    }
+
+    .SC4 {
+        width: 50%;
+        background-color: white;
+        margin-bottom: 10px;
+    }
+
+    .weath_creation {
+        position: absolute;
+        color: white;
+        font-size: 17px;
+        font-weight: 700;
+        top: 55.5%;
+        z-index: 5;
+        left: 16%;
+    }
+
+    .SC5 {
+        width: 50%;
+        margin-bottom: 10px;
+        font-size: 15px;
+        padding-left: 20px;
+        padding-bottom: 20px;
+        box-sizing: border-box;
+    }
+
+    .SC6 {
+        width: 50%;
+        margin-right: 0%;
+        margin-bottom: 10px;
+        font-size: 15px;
+        padding-left: 20px;
+    }
+
+    .SC7 {
+        width: 50%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-bottom: 10px;
+    }
+
+    .SC8 {
+        margin-bottom: 10px;
+        width: 50%;
+        margin-right: 0%;
+        background-image: linear-gradient(to right, #ff006f, #9d00fa 120%);
+    }
+
+    .SC9 {
+        width: 50%;
+        margin-left: 25%;
+        background-size: 100% 55%;
+        font-size: 15px;
+        font-weight: 700;
+        padding-top: 200px;
+        padding-left: 10px;
+    }
+
+    .card_text_head_hash {
+        font-size: 16px;
+        padding: 20px 10px 0px 10px;
+        text-align: center;
+    }
+
+    .card_text_color_text_TM {
+        font-weight: 700;
+        padding: 0px 10px 0px 10px;
+        font-size: 16px;
+    }
+
+    .card_text_normal_CBL {
+        margin-left: 10px;
+        padding: 0px 10px 0px 10px;
+        font-size: 12px;
+    }
+
+    .card_text_head_hash1 {
+        font-size: 16px;
+        padding: 20px 10px 0px 10px;
+        text-align: center;
+    }
+
+    .card_text_color_text_TM1 {
+        font-weight: 700;
+        padding: 0px 10px 0px 10px;
+        font-size: 16px;
+    }
+
+    .card_text_normal_CBL1 {
+        margin-left: 10px;
+        padding: 0px 10px 0px 10px;
+        font-size: 12px;
+    }
+
+    .triangle-left,
+    .triangle-left1,
+    .triangle-left2 {
+        width: 0;
+        height: 0;
+        border-top: 15px solid transparent;
+        border-right: 30px solid white;
+        position: absolute;
+        top: 21%;
+        left: 43%;
+        border-bottom: 15px solid transparent;
+    }
+
+    .triangle-left1 {
+        top: 41%;
+        left: 43%;
+    }
+
+    .triangle-left2 {
+        border-right: 40px solid #ff006f;
+        top: 80%;
+        left: 40%;
+    }
+
+    .vis_arrow_right111 {
+        position: absolute;
+        transform: rotate(270deg);
+        left: 87%;
+        top: 8.2px !important;
+    }
+
+    .vis_arrow_right111 span {
+        display: block;
+        width: 1rem;
+        height: 1rem;
+        border-bottom: 3px solid white;
+        border-right: 3px solid white;
+        margin: -10px;
+    }
+
+    /* fourth section */
+
+    #Career_fourth_page_MainDiv {
+        height: auto;
+        width: 100%;
+        background-color: black;
+        /* border: 1px solid white; */
+        position: relative;
+        z-index: 2;
+    }
+
+    #Main_all_card_div {
+        /* border: 1px solid red; */
+        width: 80%;
+        height: auto;
+        margin-left: 10%;
+    }
+
+    .sub_card_div {
+        border: 3px solid;
+        border-image: linear-gradient(to right, #ff006f, #9d00fa) 1;
+        width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    .card1 {
+        margin-right: 0%;
+    }
+
+    .card2 {
+        width: 100%;
+        margin-right: 0%;
+        height: auto;
+    }
+
+    .card3 {
+        height: auto;
+        border: none;
+    }
+
+    .All_cards_main_head {
+        font-size: 20px;
+    }
+
+    .All_cards_Simple_text {
+        font-size: 14px;
+    }
+
+    .Fix_Your_fifth {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    .Sakshi {
+        padding-left: 45px;
+    }
+
+    .Life_At_RedPhantom {
+        margin-left: 10%;
+        font-size: 27px;
+        font-weight: 700;
+        padding-top: 30px;
+        padding-right: 100px;
+    }
+
+    .Life_At_RedPhantom_below {
+        font-size: 17px;
+        margin-left: 10%;
+        padding-right: 20px;
+        margin-bottom: 30px;
+    }
+
+    .vis_arrow_right1111 {
+        left: 82%;
+        top: 1.3%;
+    }
+
+    .vis_arrow_right1111 span {
+        display: block;
+        width: 1rem;
+        height: 1rem;
+        border-bottom: 3px solid white;
+        border-right: 3px solid white;
+    }
+
+    /* fifth section */
+    #carr_fifth_section_main_div {
+        width: 100%;
+        height: auto;
+        flex-wrap: wrap;
+        background-image: none;
+    }
+
+    .carr_fifth_section_sub1 {
+        width: 100%;
+        margin-left: 0%;
+        /* border: 1px solid white; */
+        padding-top: 20px;
+    }
+
+    .carr_fifth_section_sub2 {
+        width: 100%;
+        /* border: 1px solid white; */
+        height: auto;
+        padding-top: 200px;
+        position: relative;
+    }
+
+    .founderImg {
+        width: 80%;
+        top: 15%;
+    }
+
+    .carAA {
+        font-size: 30px;
+        margin: 0px 2% 0px 2%;
+    }
+
+
+    .carrer_youtube_wrapper {
+        width: 10%;
+        position: absolute;
+        top: 70%;
+        right: 45%;
+        z-index: 10;
+        border-radius: 100%;
+        background-color: white;
+        cursor: pointer;
+        /* animation: youtube 2s ease-out infinite; */
+        /* Apply the animation to .carrer_youtube_wrapper */
+    }
+
+
+
+    .carrer_youtube_wrapper::after,
+    .carrer_youtube_wrapper::before {
+        content: "";
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        border-radius: 100%;
+        opacity: 0.7;
+        z-index: -1;
+        display: block;
+        background-color: #f4f4f4;
+        animation: youtube 2s ease-out infinite;
+    }
+
+    .carrer_youtube_wrapper::before {
+        animation-delay: 0.5s;
+    }
+
+    .carrer_youtube_wrapper::after {
+        animation-delay: 1s;
+    }
+
+    @keyframes youtube {
+        100% {
+            opacity: 0;
+            transform: scale(1.5);
+        }
+    }
+
+
+    /* animation */
+
+    .circle-1 {
+        height: 10px;
+        width: 10px;
+    }
+
+    .circle-2 {
+        height: 50px;
+        width: 50px;
+    }
+
+    .circle-3 {
+        height: 100px;
+        width: 100px;
+    }
+
+    .circle-4 {
+        height: 150px;
+        width: 150px;
+    }
+
+    .circle-5 {
+        height: 200px;
+        width: 200px;
+    }
+
+    .circle-6 {
+        height: 250px;
+        width: 250px;
+    }
+
+    .circle-7 {
+        height: 300px;
+        width: 300px;
+    }
+
+    .circle-8 {
+        height: 350px;
+        width: 350px;
+    }
+}
+
+/*media query 2  */
+
+@media screen and (min-width:480px) and (max-width: 768px) {
+
+    .startnow_five,
+    .succsee_five,
+    .future_five,
+    #FUTURE,
+    #RESPONSIBILITIES,
+    #LIFE_ll,
+    .WORKING,
+    .REDPHANTOM_BIG {
+        display: none;
+    }
+
+    /* first section */
+    #FuturaMediumBT {
+        height: auto;
+        padding-bottom: 200px;
+    }
+
+    .car_rmb {
+        width: 50%;
+        margin-left: 70%;
+    }
+
+    .dotted_pic {
+        opacity: 1;
+        /* display: none; */
+    }
+
+    .Career_colorbor {
+        width: 15%;
+        font-size: 22px;
+        font-weight: bolder;
+        margin-left: 75%;
+    }
+
+    .All_common {
+        padding-top: 120px;
+    }
+
+    .join_us_mainDiv {
+        margin-top: 50px;
+        width: 70%;
+        margin-left: 20%;
+        padding-right: 20px;
+        background-color: rgb(0, 0, 0, 0.5);
+    }
+
+    .join_us_simText {
+        margin-left: 0%;
+        font-size: 19px;
+        font-weight: 600;
+        width: 100%;
+    }
+
+    .hash_one1 {
+        left: 70%;
+        font-size: 150px;
+    }
+
+    .TRANSPORTATION {
+        font-size: 55px;
+        left: 5%;
+        bottom: 0%;
+    }
+
+    /* down Arrow */
+    .arrow_rightrrr {
+        bottom: 15%;
+        left: 85%;
+    }
+
+    .arrow_rightrrr span {
+        width: 1.5rem;
+        height: 1.5rem;
+        border-bottom: 4px solid white;
+        border-right: 4px solid white;
+    }
+
+    /* second  page*/
+    .We_Are_RedPhantom_CP2 {
+        padding-top: 8%;
+        margin-left: 9.5%;
+    }
+
+    .We_Are_RedPhantom_CP3 {
+        margin-left: 10%;
+        font-size: 30px;
+        font-weight: 700;
+        padding-bottom: 20px;
+    }
+
+    #CP_second_sec_main_page {
+        padding-bottom: 50px;
+        padding-top: 30px;
+        height: auto;
+        background-color: black;
+        /* border: 1px solid red; */
+    }
+
+    #CP_second_sec_three_cards {
+        width: 80%;
+        margin-left: 10%;
+        /* border: 1px solid red; */
+        height: 850px;
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom: 20px;
+        position: relative;
+    }
+
+    .CP_second_sec_three_cards_sunCard {
+        margin-bottom: 20px;
+        height: 472px;
+        /* border: 1px solid yellow; */
+    }
+
+    .TC_C1 {
+        width: 48%;
+        margin-left: 0%;
+    }
+
+    .TC_C2 {
+        width: 100%;
+        margin-left: 0%;
+        font-size: 15px;
+        position: absolute;
+        top: 490px;
+        height: 100%;
+    }
+
+    .TC_C3 {
+        width: 48%;
+        margin-left: 0%;
+    }
+
+    .Card_div_under_sub_1 {
+        height: 230px;
+    }
+
+    .Card_div_under_sub_2 {
+        height: 240px;
+        padding-bottom: 15px;
+    }
+
+    .Card_div_under_sub_3 {
+        height: 230px;
+        padding-top: 30px;
+        padding-bottom: 15px;
+    }
+
+    .Card_div_under_sub_4 {
+        height: 240px;
+    }
+
+    .hashtag_jobs {
+        font-size: 30px;
+    }
+
+    .Opprtunities {
+        font-size: 30px;
+    }
+
+    .hashtag_career {
+        margin-left: 40%;
+    }
+
+    .triangle-down {
+        left: 5%;
+    }
+
+    .triangle-up {
+        left: 88%;
+        top: 207px;
+    }
+
+    .vis_arrow_right11 {
+        position: absolute;
+        transform: rotate(270deg);
+        left: 65%;
+        top: 8.5%;
+    }
+
+    .vis_arrow_right11 span {
+        display: block;
+        width: 1rem;
+        height: 1rem;
+        border-bottom: 3px solid white;
+        border-right: 3px solid white;
+    }
+
+    /* third section */
+
+    #CA_thred_page_mainDiv {
+        /* border: 1px solid white; */
+        width: 100%;
+        height: auto;
+        background-color: black;
+        position: relative;
+        z-index: 2;
+    }
+
+    .We_Are_RedPhantom_CP3 {
+        padding-top: 0px;
+    }
+
+    .CP3_Card_main_div {
+        /* border: 1px solid red; */
+        width: 80%;
+        margin-left: 10%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .CP3_Card_Sub_cards {
+        /* border: 1px solid yellow; */
+        height: auto;
+        width: 50%;
+    }
+
+    .SC1 {
+        width: 40%;
+        background-size: 100% 70%;
+        background-repeat: no-repeat;
+        margin-bottom: 10px;
+        height: 250px;
+        padding-top: 200px;
+    }
+
+    .SC2 {
+        width: 60%;
+        margin-right: 0%;
+        background-color: white;
+        margin-bottom: 10px;
+        height: 250px;
+    }
+
+    .SC3 {
+        width: 40%;
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin-bottom: 10px;
+        height: 250px;
+        padding-top: 200px;
+    }
+
+    .SC4 {
+        width: 60%;
+        background-color: white;
+        margin-bottom: 10px;
+    }
+
+    .weath_creation {
+        position: absolute;
+        color: white;
+        font-size: 18px;
+        font-weight: 700;
+        top: 830px;
+        left: 230px;
+        z-index: 5;
+    }
+
+    .SC5 {
+        width: 50%;
+        height: 250px;
+        margin-bottom: 10px;
+        font-size: 16px;
+        padding-bottom: 80px;
+        text-align: center;
+    }
+
+    .SC6 {
+        width: 50%;
+        margin-right: 0%;
+        margin-bottom: 10px;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .SC7 {
+        width: 40%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-bottom: 10px;
+        height: 250px;
+        padding-top: 200px;
+    }
+
+    .SC8 {
+        margin-bottom: 10px;
+        height: 250px;
+        width: 60%;
+        margin-right: 0%;
+        background-image: linear-gradient(to right, #ff006f, #9d00fa 120%);
+    }
+
+    .SC9 {
+        width: 30%;
+        margin-left: 35%;
+        background-size: 90% 55%;
+        font-size: 15px;
+        font-weight: 700;
+        padding-top: 200px;
+        padding-left: 10px;
+    }
+
+    .card_text_head_hash {
+        font-size: 18px;
+        padding: 20px 10px 0px 10px;
+        text-align: center;
+    }
+
+    .card_text_color_text_TM {
+        font-weight: 700;
+        padding: 0px 10px 0px 10px;
+        font-size: 18px;
+    }
+
+    .card_text_normal_CBL {
+        margin-left: 10px;
+        padding: 0px 10px 0px 10px;
+        font-size: 14px;
+    }
+
+    .card_text_head_hash1 {
+        font-size: 18px;
+        padding: 20px 10px 0px 10px;
+        text-align: center;
+    }
+
+    .card_text_color_text_TM1 {
+        font-weight: 700;
+        padding: 0px 10px 0px 10px;
+        font-size: 18px;
+    }
+
+    .card_text_normal_CBL1 {
+        margin-left: 10px;
+        padding: 0px 10px 0px 10px;
+        font-size: 14px;
+    }
+
+    .triangle-left,
+    .triangle-left1,
+    .triangle-left2 {
+        width: 0;
+        height: 0;
+        border-top: 15px solid transparent;
+        border-right: 30px solid white;
+        position: absolute;
+        top: 280px;
+        left: 293px;
+        border-bottom: 15px solid transparent;
+    }
+
+    .triangle-left1 {
+        top: 540px;
+        left: 293px;
+    }
+
+    .triangle-left2 {
+        border-right: 40px solid #ff006f;
+        top: 1120px;
+        left: 285px;
+    }
+
+    .vis_arrow_right111 {
+        position: absolute;
+        transform: rotate(270deg);
+        left: 55%;
+        top: 3px;
+    }
+
+    .vis_arrow_right111 span {
+        display: block;
+        width: 1rem;
+        height: 1rem;
+        border-bottom: 3px solid white;
+        border-right: 3px solid white;
+    }
+
+    /* fourth section */
+
+    #Career_fourth_page_MainDiv {
+        height: auto;
+        width: 100%;
+        background-color: black;
+        /* border: 1px solid white; */
+        position: relative;
+        z-index: 2;
+    }
+
+    #Main_all_card_div {
+        /* border: 1px solid red; */
+        width: 80%;
+        height: auto;
+        margin-left: 10%;
+    }
+
+    .sub_card_div {
+        border: 3px solid;
+        border-image: linear-gradient(to right, #ff006f, #9d00fa) 1;
+        width: 49%;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    .card1 {
+        margin-right: 0%;
+    }
+
+    .macha {
+        margin-right: 2%;
+    }
+
+    .card2 {
+        width: 49%;
+        margin-right: 0%;
+        height: auto;
+    }
+
+    .macha11 {
+        margin-left: 2%;
+    }
+
+    .card3 {
+        width: 100%;
+        text-align: center;
+        height: auto;
+        border: none;
+    }
+
+    .All_cards_main_head {
+        font-size: 20px;
+    }
+
+    .All_cards_Simple_text {
+        font-size: 14px;
+    }
+
+    .Fix_Your_fifth {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    .Life_At_RedPhantom {
+        margin-left: 10%;
+        font-size: 30px;
+        font-weight: 700;
+        padding-top: 30px;
+        padding-right: 100px;
+    }
+
+    .Life_At_RedPhantom_below {
+        font-size: 17px;
+        margin-left: 10%;
+        padding-right: 50px;
+        margin-bottom: 30px;
+    }
+
+    .vis_arrow_right1111 {
+        left: 55%;
+        top: 25PX;
+    }
+
+    .vis_arrow_right1111 span {
+        display: block;
+        width: 1.25rem;
+        height: 1.25rem;
+    }
+
+    /* fifth section */
+    #carr_fifth_section_main_div {
+        width: 100%;
+        height: auto;
+        flex-wrap: wrap;
+        background-image: none;
+    }
+
+    .carr_fifth_section_sub1 {
+        width: 100%;
+        margin-left: 0%;
+        /* border: 1px solid white; */
+        padding-top: 20px;
+    }
+
+    .carr_fifth_section_sub2 {
+        width: 100%;
+        /* border: 1px solid white; */
+        padding-top: 300px;
+        padding-bottom: 100px;
+    }
+
+    .founderImg {
+        width: 60%;
+        top: 23%;
+    }
+
+
+    .carrer_youtube_wrapper {
+        width: 8%;
+        position: absolute;
+        top: 70%;
+        right: 45%;
+        z-index: 10;
+        border-radius: 100%;
+        background-color: white;
+        cursor: pointer;
+        /* animation: youtube 2s ease-out infinite; */
+        /* Apply the animation to .carrer_youtube_wrapper */
+    }
+
+
+
+    .carrer_youtube_wrapper::after,
+    .carrer_youtube_wrapper::before {
+        content: "";
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        border-radius: 100%;
+        opacity: 0.7;
+        z-index: -1;
+        display: block;
+        background-color: #f4f4f4;
+        animation: youtube 2s ease-out infinite;
+    }
+
+    .carrer_youtube_wrapper::before {
+        animation-delay: 0.5s;
+    }
+
+    .carrer_youtube_wrapper::after {
+        animation-delay: 1s;
+    }
+
+    @keyframes youtube {
+        100% {
+            opacity: 0;
+            transform: scale(1.5);
+        }
+    }
+
+
+    /* animation */
+
+    .circle-1 {
+        height: 170px;
+        width: 170px;
+        animation-delay: .10s;
+    }
+
+    .circle-2 {
+        height: 220px;
+        width: 220px;
+        animation-delay: .20s;
+    }
+
+    .circle-3 {
+        height: 270px;
+        width: 270px;
+        animation-delay: .30s;
+    }
+
+    .circle-4 {
+        height: 320px;
+        width: 320px;
+        animation-delay: .40s;
+    }
+
+    .circle-5 {
+        height: 370px;
+        width: 370px;
+        animation-delay: .50s;
+    }
+
+    .circle-6 {
+        height: 420px;
+        width: 420px;
+        animation-delay: .60s;
+    }
+
+    .circle-7 {
+        height: 470px;
+        width: 470px;
+        animation-delay: .70s;
+    }
+
+    .circle-8 {
+        height: 520px;
+        width: 520px;
+        animation-delay: .80s;
+    }
+}
+
+
+/* media query 3 */
+
+@media screen and (min-width:770px) and (max-width: 1024px) {
+    /* first section */
+
+    .startnow_five,
+    .succsee_five,
+    .future_five,
+    #FUTURE,
+    #RESPONSIBILITIES,
+    #LIFE_ll,
+    .WORKING,
+    .REDPHANTOM_BIG {
+        display: none;
+    }
+
+    #FuturaMediumBT {
+        height: 95vh;
+        padding-bottom: 200px;
+    }
+
+    .Career_colorbor {
+        width: 10%;
+        font-size: 25px;
+        margin-left: 80%;
+    }
+
+    .All_common {
+        padding-top: 170px;
+    }
+
+    .join_us_mainDiv {
+        text-align: end;
+        border-right: 3px solid white;
+        width: 60%;
+        margin-left: 30%;
+        padding-right: 20px;
+        background-color: rgb(0, 0, 0, 0.5);
+    }
+
+    .join_us_clrtext {
+        font-size: 35px;
+    }
+
+    .join_us_simText {
+        margin-left: 30%;
+        width: 70%;
+    }
+
+    .hash_one1 {
+        font-size: 150px;
+        opacity: 0.1;
+        left: 75%;
+        bottom: -50px;
+    }
+
+    .TRANSPORTATION {
+        font-size: 70px;
+        opacity: 0.1;
+        left: 8%;
+        bottom: 0%;
+    }
+
+    /* second  page*/
+
+    #CP_second_sec_main_page {
+        width: 100%;
+        height: auto;
+        /* border: 1px solid red; */
+    }
+
+    #CP_second_sec_three_cards {
+        width: 90%;
+        margin-left: 7.5%;
+        /* border: 1px solid red; */
+        height: auto;
+    }
+
+    .CP_second_sec_three_cards_sunCard {
+        height: auto;
+    }
+
+    .TC_C1 {
+        width: 29%;
+        margin-right: 1%;
+    }
+
+    .TC_C2 {
+        width: 40%;
+        margin-right: 1%;
+        font-size: 12.5px;
+    }
+
+    .TC_C3 {
+        width: 29%;
+    }
+
+    .Card_div_under_sub_4 {
+        margin-top: -16px;
+    }
+
+    .hashtag_jobs {
+        font-size: 35px;
+    }
+
+    .Opprtunities {
+        font-size: 30px;
+    }
+
+    .Programs {
+        font-size: 35px;
+    }
+
+    .hashtag_career {
+        font-size: 35px;
+        margin-left: 40px;
+    }
+
+    .triangle-down {
+        left: 270px;
+    }
+
+    .triangle-up {
+        left: 75%;
+        top: 368px;
+    }
+
+    .vis_arrow_right11 {
+        left: 550px;
+        top: 50PX;
+    }
+
+    /* third section */
+
+    #CA_thred_page_mainDiv {
+        height: 100vh;
+        /* border:1px solid red */
+    }
+
+    .We_Are_RedPhantom_CP3 {
+        margin-left: 15%;
+        font-size: 35px;
+        font-weight: 700;
+        padding-top: 60px;
+        padding-bottom: 20px;
+    }
+
+    .CP3_Card_main_div {
+        /* border: 1px solid red; */
+        width: 90%;
+        margin-left: 7.5%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .CP3_Card_Sub_cards {
+        border: 1px solid yellow;
+        height: 240px;
+        margin-bottom: 15px;
+    }
+
+    .SC1 {
+        width: 22%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        padding-top: 200px;
+    }
+
+    .SC2 {
+        width: 27%;
+        margin-right: 2%;
+        font-size: 13px
+    }
+
+    .SC3 {
+        width: 22%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        padding-top: 200px;
+    }
+
+    .SC4 {
+        width: 27%;
+        font-size: 13px
+    }
+
+    .weath_creation {
+        font-size: 17px;
+        top: 790px;
+        left: 100px;
+        width: 20%;
+    }
+
+    .SC5 {
+        width: 15%;
+        font-size: 13px;
+    }
+
+    .SC6 {
+        width: 15%;
+        margin-right: 2%;
+        font-size: 13px;
+    }
+
+    .SC7 {
+        width: 22%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        padding-top: 200px;
+    }
+
+    .SC8 {
+        width: 27%;
+        margin-right: 2%;
+        font-size: 13px;
+        background-image: linear-gradient(to right, #ff006f, #9d00fa 120%);
+    }
+
+    .SC9 {
+        width: 17%;
+        text-align: center;
+        padding-right: 10px;
+        padding-top: 170px;
+        font-size: 12px;
+        line-height: 15px;
+
+    }
+
+    .triangle-left,
+    .triangle-left1,
+    .triangle-left2 {
+        border-top: 15px solid transparent;
+        border-right: 40px solid white;
+        top: 440px;
+        left: 24%;
+        border-bottom: 15px solid transparent;
+    }
+
+    .triangle-left1 {
+        top: 440px;
+        left: 69.5%;
+    }
+
+    .triangle-left2 {
+        border-right: 40px solid #ff006f;
+        top: 800px;
+        left: 52.5%;
+    }
+
+    .vis_arrow_right111 {
+        left: 580px;
+        top: 50PX;
+    }
+
+    /* fourth section */
+
+    #Career_fourth_page_MainDiv {
+        height: auto;
+        /* border: 1px solid white; */
+    }
+
+    #Main_all_card_div {
+        /* border: 1px solid red; */
+        width: 90%;
+        height: auto;
+        margin-left: 7.5%;
+    }
+
+    .sub_card_div {
+        width: 24.25%;
+        height: 46%;
+        margin-bottom: 10px;
+    }
+
+    .card1 {
+        margin-right: 1%;
+    }
+
+    .card2 {
+        width: 35%;
+        margin-right: 1%;
+        height: 38%;
+    }
+
+    .card3 {
+        width: 28%;
+        height: auto;
+        border: none;
+    }
+
+    .vis_arrow_right1111 {
+        left: 560px;
+        top: 50PX;
+
+    }
+
+    /* fifth section */
+
+    .founderImg {
+        width: 85%;
+        position: absolute;
+        z-index: 9;
+        top: 26%;
+    }
+
+    .carrer_youtube_wrapper {
+        width: 10%;
+        position: absolute;
+        top: 70%;
+        right: 45%;
+        z-index: 10;
+        border-radius: 100%;
+        background-color: white;
+        cursor: pointer;
+        /* animation: youtube 2s ease-out infinite; */
+        /* Apply the animation to .carrer_youtube_wrapper */
+    }
+
+
+
+    .carrer_youtube_wrapper::after,
+    .carrer_youtube_wrapper::before {
+        content: "";
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        border-radius: 100%;
+        opacity: 0.7;
+        z-index: -1;
+        display: block;
+        background-color: #f4f4f4;
+        animation: youtube 2s ease-out infinite;
+    }
+
+    .carrer_youtube_wrapper::before {
+        animation-delay: 0.5s;
+    }
+
+    .carrer_youtube_wrapper::after {
+        animation-delay: 1s;
+    }
+
+    @keyframes youtube {
+        100% {
+            opacity: 0;
+            transform: scale(1.5);
+        }
+    }
+
+
+    .Life_At_RedPhantom {
+        padding-top: 60px;
+    }
+
+    /* animation */
+
+    .circle-1 {
+        height: 170px;
+        width: 170px;
+        animation-delay: .10s;
+    }
+
+    .circle-2 {
+        height: 220px;
+        width: 220px;
+        animation-delay: .20s;
+    }
+
+    .circle-3 {
+        height: 270px;
+        width: 270px;
+        animation-delay: .30s;
+    }
+
+    .circle-4 {
+        height: 320px;
+        width: 320px;
+        animation-delay: .40s;
+    }
+
+    .circle-5 {
+        height: 370px;
+        width: 370px;
+        animation-delay: .50s;
+    }
+
+    .circle-6 {
+        height: 420px;
+        width: 420px;
+        animation-delay: .60s;
+    }
+
+    .circle-7 {
+        height: 470px;
+        width: 470px;
+        animation-delay: .70s;
+    }
+
+    .circle-8 {
+        display: none;
+    }
+
+}
+
+/* MQ 4 */
+
+@media screen and (min-width:1025px) and (max-width:1440px) {
+
+    /* second sec */
+    .We_Are_RedPhantom_CP2 {
+        font-size: 35px;
+        padding-top: 70px !important;
+    }
+
+    #CP_second_sec_three_cards {
+        height: 500px;
+    }
+
+    .CP_second_sec_three_cards_sunCard {
+        height: 500px;
+    }
+
+    .TC_C2 {
+        font-size: 14px;
+    }
+
+    .vis_arrow_right11 {
+        top: 60PX;
+    }
+
+    /* third sec */
+
+    .REDPHANTOM_BIG {
+        font-size: 80PX;
+    }
+
+    .CP3_Card_main_div {
+        /* border: 1px solid red; */
+        height: 530px;
+    }
+
+    .CP3_Card_Sub_cards {
+        height: 255px;
+    }
+
+    .SC1 {
+        font-size: 18px;
+        padding-top: 210px;
+    }
+
+    .SC3 {
+        font-size: 18px;
+        padding-top: 210px;
+    }
+
+    .weath_creation {
+        top: 605px;
+    }
+
+    .SC5 {
+        padding-top: 190px;
+    }
+
+    .SC6 {
+        padding-top: 190px;
+    }
+
+    .SC7 {
+        font-size: 18px;
+        padding-top: 210px;
+    }
+
+    .SC9 {
+        font-size: 15px;
+        line-height: 10px;
+    }
+
+    .card_text_normal_CBL {
+        border-left: 2px solid;
+        font-size: 14px;
+    }
+
+    .card_text_normal_CBL1 {
+        font-size: 14px;
+    }
+
+    /* fourth section */
+
+    #Main_all_card_div {
+        /* border: 1px solid red; */
+        width: 82%;
+    }
+
+    .sub_card_div {
+        height: 240px;
+    }
+
+    .card1 {}
+
+    .card2 {
+        width: 35%;
+        height: auto;
+    }
+
+    .card3 {
+        height: 200px;
+    }
+}

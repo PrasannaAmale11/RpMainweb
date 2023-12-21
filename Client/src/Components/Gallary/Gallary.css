@@ -1,0 +1,214 @@
+.main_gallary_div {
+    width: 100%;
+    height: auto;
+    background-color: black !important;
+    z-index: 2;
+    position: relative;
+    /* border: 1px solid red; */
+    padding: 80px 50px 50px 50px;
+    box-sizing: border-box;
+}
+
+.main_gal_card_div {
+    /* border: 1px solid yellow; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.sub_card_gal {
+    border: 1px solid rgba(255, 255, 255, 0.301);
+    border-radius: 15px;
+    width: 23.5%;
+    height: 200px;
+    margin-bottom: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding-bottom: 5px;
+    font-size: 18px;
+}
+
+
+.sub_card_gal:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    color: #ff006f;
+    transition: transform 0.5s ease;
+}
+
+.newimg1 {
+    background-image: url("../images1/Automobiles-min.jpg");
+    background-size: cover;
+}
+
+.newimg2 {
+    background-image: url("../images1/hardware.jpg");
+    background-size: cover;
+}
+
+.newimg3 {
+    background-image: url("../images1/infra.jpg");
+    background-size: cover;
+}
+
+.newimg4 {
+    background-image: url("../images1/chemical-min.jpg");
+    background-size: cover;
+}
+
+.newimg5 {
+    background-image: url("../images1/real_estate.jpg");
+    background-size: cover;
+}
+
+.newimg6 {
+    background-image: url("../images1/milk.jpg");
+    background-size: cover;
+}
+
+.newimg7 {
+    background-image: url("../images1/crypto.jpg");
+    background-size: cover;
+}
+
+.newimg8 {
+    background-image: url("../images1/Hospital.jpg");
+    background-size: cover;
+}
+
+.newimg9 {
+    background-image: url("../images1/Transportation.jpg");
+    background-size: cover;
+}
+
+.newimg10 {
+    background-image: url("../images1/Electronic-min.jpg");
+    background-size: cover;
+}
+
+.newimg11 {
+    background-image: url("../images1/Education.jpg");
+    background-size: cover;
+}
+
+.newimg12 {
+    background-image: url("../images1/Textile.jpg");
+    background-size: cover;
+}
+
+.newimg13 {
+    background-image: url("../images1/film.jpg");
+    background-size: cover;
+}
+
+.newimg14 {
+    background-image: url("../images1/telecom.jpg");
+    background-size: cover;
+}
+
+.newimg15 {
+    background-image: url("../images1/oil.jpg");
+    background-size: cover;
+}
+
+.newimg16 {
+    background-image: url("");
+    background-size: cover;
+    border: none;
+}
+
+.back_btn_gallary {
+    border: 2px solid #ff006f;
+    background-color: transparent;
+    color: white;
+    width: 10%;
+    font-size: 18px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    padding: 5px 0px 5px 0px;
+    margin-left: 45%;
+}
+
+.back_btn_gallary:hover {
+    background-color: #ff006f;
+    transition: 1s ease-in-out ;
+    scale: 0.9;
+}
+
+.back_btn_svg {
+    margin-bottom: 3px;
+}
+
+
+@media screen and (min-width:770px) and (max-width:1024px) {
+
+    .sub_card_gal {
+        width: 23.5%;
+        height: 150px;
+    }
+}
+
+@media screen and (min-width:501px) and (max-width:768px) {
+
+    .sub_card_gal {
+        width: 32%;
+        height: 120px;
+        margin-bottom: 20px;
+    }
+
+    .main_gallary_div {
+        padding: 80px 30px 50px 30px;
+    }
+}
+
+@media screen and (min-width:377px) and (max-width:500px) {
+
+    .sub_card_gal {
+        width: 48.5%;
+        height: 100px;
+        margin-bottom: 20px;
+    }
+
+    .main_gallary_div {
+        padding: 80px 20px 50px 20px;
+    }
+}
+
+@media screen and (min-width:321px) and (max-width:376px) {
+
+    .sub_card_gal {
+        width: 95%;
+        height: 140px;
+        margin-bottom: 20px;
+    }
+
+    .main_gallary_div {
+        padding: 80px 20px 50px 20px;
+    }
+
+    .main_gal_card_div {
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width:280px) and (max-width:320px) {
+
+    .sub_card_gal {
+        width: 95%;
+        height: 140px;
+        margin-bottom: 20px;
+    }
+
+    .main_gallary_div {
+        padding: 80px 20px 50px 20px;
+    }
+
+    .main_gal_card_div {
+        justify-content: center;
+    }
+}

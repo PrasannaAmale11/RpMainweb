@@ -1,0 +1,664 @@
+/* first section */
+
+#TRN_first_section_MainDiv {
+    width: 100%;
+    height: 100vh;
+    /* border: 1px solid red; */
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0.7), rgba(196, 28, 28, 0)), url(../images1/TransportationMain-min.jpg);
+    background-size: 100% 100%;
+    color: white;
+    text-align: end;
+    padding-top: 150px;
+    position: relative;
+    z-index: 2;
+}
+
+.comdiv_trans {
+    position: relative;
+    z-index: 2;
+}
+
+.TRN_business {
+    border: 2px solid rgb(8, 174, 174);
+    width: 10%;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    margin-left: 82.5%;
+}
+
+.TRN_RPTN_name {
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(270deg, #ff006f, #9d00fa 50%);
+    margin-right: 7.5%;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.TRN_SIDEBORDER_MAINDIV {
+    margin-right: 7.5%;
+    border-right: 3px solid white;
+    padding-right: 20px;
+}
+
+.TRN_SIDEBORDER_FIRST {
+    color: aqua;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.TRN_SIDEBORDER_SECOND {
+    width: 45%;
+    margin-left: 55%;
+}
+
+.TRN_IMTOINO {
+    font-size: 25px;
+    font-weight: bold;
+    margin-right: 7.5%;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(270deg, #ff006f, #9d00fa 20%);
+}
+
+.TRN_READMORE_FP {
+    font-size: 18px;
+    font-weight: bold;
+    /* border: 1px solid red; */
+}
+
+.arrow_right_Trans {
+    position: absolute;
+    top: 85%;
+    left: 88%;
+    transform: translate(-50%, -50%);
+    transform: rotate(360deg);
+    cursor: pointer;
+}
+
+.arrow_right_Trans span {
+    display: flex;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-bottom: 5px solid white;
+    border-right: 5px solid white;
+    transform: rotate(90deg);
+    margin: -10px;
+    animation: animate 2s infinite;
+}
+
+.arrow_right_Trans span:nth-child(2) {
+    animation-delay: -0.2s;
+}
+
+.arrow_right_Trans span:nth-child(3) {
+    animation-delay: -0.4s;
+}
+
+@keyframes animate {
+
+    0% {
+        opacity: 0;
+        transform: rotate(45deg) translate(-20px, -20px);
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        transform: rotate(45deg) translate(20px, 20px);
+    }
+}
+
+.TRANSPORTATION_trans_sec1 {
+    position: absolute;
+    top: 600px;
+    left: 200px;
+    z-index: 0;
+    opacity: 0.08;
+    font-size: 110px;
+    font-weight: 600;
+}
+
+.hashing_2hash {
+    position: absolute;
+    top: 70%;
+    left: 82%;
+    z-index: 0;
+    opacity: 0.05;
+    font-size: 120px;
+    font-weight: 700;
+}
+
+.trans_rmbtn {
+    width: 12%;
+    margin-left: 81%;
+}
+
+/* second section */
+
+#TRA_second_sec_main_div {
+    width: 100%;
+    height: 100vh;
+    /* border: 1px solid white; */
+    background-color: black;
+    display: flex;
+    position: relative;
+    z-index: 2;
+}
+
+.two_sec_first_main {
+    margin-left: 15%;
+    width: 40%;
+    /* border: 1px solid red; */
+    position: relative;
+    z-index: 2;
+}
+
+.two_sec_second_main {
+    padding-top: 120px;
+    text-align: end;
+    width: 35%;
+    /* border: 1px solid red; */
+    color: white;
+    position: relative;
+    z-index: 2;
+}
+
+.capman_img {
+    width: 90%;
+    margin-top: 20%;
+    align-items: center;
+}
+
+.C {
+    font-size: 50px;
+}
+
+.CYBTWP_clrtext {
+    font-size: 35px;
+    font-weight: 700;
+    border-right: 3px solid #9d00fa;
+    padding-right: 20px;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(270deg, #ff006f, #9d00fa 100%);
+}
+
+.CYBTWP_simple_justify {
+    text-align: start;
+    font-weight: bolder;
+    text-align: justify;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.IMAGINATION_SECSEC {
+    position: absolute;
+    font-size: 110px;
+    font-weight: 600;
+    top: 80%;
+    z-index: 1;
+    left: 15%;
+    opacity: 0.5;
+}
+
+.INNOVATIVE_SECSEC {
+    opacity: 0.5;
+    position: absolute;
+    rotate: 270deg;
+    left: 72%;
+    font-size: 100px;
+    font-weight: 600;
+    top: 40%;
+}
+
+.redport_svg {
+    width: 13%;
+    margin-right: 8%;
+}
+
+
+@media screen and (min-width:320px) and (max-width:480px) {
+    /* first section */
+
+    #TRN_first_section_MainDiv {
+        height: auto;
+        /* border: 1px solid red; */
+        background-image: url(../images1/Transport__MV.jpg);
+        background-color: black;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .TRN_business {
+        width: 35%;
+        font-size: 18px;
+        margin-left: 57%;
+    }
+
+    .TRN_RPTN_name {
+        font-size: 30px;
+    }
+
+    .TRN_SIDEBORDER_MAINDIV {
+        margin-right: 10%;
+        border-right: 2px solid white;
+        padding-right: 20px;
+    }
+
+    .trans_rmbtn{
+        width: 100%;
+        margin-left: -3%;
+    }
+
+    .TRN_SIDEBORDER_FIRST {
+        font-size: 20px;
+        width: 80%;
+        margin-left: 20%;
+    }
+
+    .TRN_SIDEBORDER_SECOND {
+        width: 90%;
+        margin-left: 10%;
+    }
+
+    .TRN_IMTOINO {
+        font-size: 20px;
+        margin-right: 40px;
+    }
+
+    .TRN_READMORE_FP {
+        font-size: 16px;
+    }
+
+    .arrow_right_Trans {
+        position: absolute;
+        top: 90%;
+        left: 85%;
+    }
+
+    .arrow_right_Trans span {
+        width: 1.25rem;
+        height: 1.25rem;
+        border-bottom: 4px solid white;
+        border-right: 4px solid white;
+    }
+
+    .TRANSPORTATION_trans_sec1,
+    .hashing_2hash {
+        display: none;
+    }
+
+    /* second section */
+
+    #TRA_second_sec_main_div {
+        height: auto;
+        /* border: 1px solid white; */
+        background-color: black;
+        overflow: hidden;
+        flex-wrap: wrap;
+    }
+
+    .two_sec_first_main {
+        margin-left: 5%;
+        width: 90%;
+        /* border: 1px solid red; */
+    }
+
+    .two_sec_second_main {
+        padding-top: 20px;
+        text-align: end;
+        width: 90%;
+        margin-left: 5%;
+        /* border: 1px solid red; */
+        color: white;
+    }
+
+    .capman_img {
+        width: 90%;
+        margin-top: 10%;
+        margin-left: 5%;
+    }
+
+    .C {
+        font-size: 40px;
+    }
+
+    .CYBTWP_clrtext {
+        font-size: 25px;
+        font-weight: 700;
+        border-right: 3px solid #9d00fa;
+        padding-right: 20px;
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        background-image: linear-gradient(270deg, #ff006f, #9d00fa 100%);
+    }
+
+    .CYBTWP_simple_justify {
+        text-align: start;
+        font-weight: bolder;
+        text-align: justify;
+        padding: 10px;
+        font-size: 16px;
+    }
+
+    .IMAGINATION_SECSEC,
+    .INNOVATIVE_SECSEC {
+        display: none;
+    }
+
+    .redport_svg {
+        width: 30%;
+        margin-right: 10%;
+        padding-bottom: 20px;
+    }
+
+    .mamam {
+        width: 8%;
+    }
+}
+
+@media screen and (min-width:480px) and (max-width:768px) {
+    /* first section */
+
+    #TRN_first_section_MainDiv {
+        height: auto;
+        /* border: 1px solid red; */
+        background-image: none;
+        background-color: black;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .TRN_business {
+        width: 20%;
+        font-size: 25px;
+        margin-left: 72%;
+    }
+
+    .TRN_RPTN_name {
+        font-size: 35px;
+        padding-right: 2px;
+    }
+
+    .TRN_SIDEBORDER_MAINDIV {
+        margin-right: 8%;
+        border-right: 3px solid white;
+        padding-right: 25px;
+    }
+
+    .TRN_SIDEBORDER_FIRST {
+        font-size: 25px;
+        width: 80%;
+        margin-left: 20%;
+    }
+
+    .TRN_SIDEBORDER_SECOND {
+        width: 80%;
+        margin-left: 20%;
+    }
+
+    .TRN_IMTOINO {
+        font-size: 20px;
+        margin-right: 100px;
+    }
+
+    .TRN_READMORE_FP {
+        font-size: 16px;
+    }
+
+    .arrow_right_Trans {
+        position: absolute;
+        top: 90%;
+        left: 85%;
+    }
+
+    .arrow_right_Trans span {
+        width: 1.25rem;
+        height: 1.25rem;
+        border-bottom: 4px solid white;
+        border-right: 4px solid white;
+    }
+
+    .TRANSPORTATION_trans_sec1 {
+        display: none;
+    }
+    .hashing_2hash {
+        position: absolute;
+        top: 75%;
+        left: 10%;
+        font-size: 85px;
+    }
+
+    .trans_rmbtn{
+        width: 22%;
+        margin-left: 68%;
+    }
+
+    .redport_svg {
+        width: 20% !important;
+        margin-right: 12% !important;
+        padding-bottom: 20px;
+    }
+
+    /* second section */
+
+    #TRA_second_sec_main_div {
+        height: auto;
+        /* border: 1px solid white; */
+        background-color: black;
+        overflow: hidden;
+        flex-wrap: wrap;
+    }
+
+    .two_sec_first_main {
+        margin-left: 5%;
+        width: 90%;
+        /* border: 1px solid red; */
+    }
+
+    .two_sec_second_main {
+        padding-top: 20px;
+        text-align: end;
+        width: 90%;
+        margin-left: 5%;
+        /* border: 1px solid red; */
+        color: white;
+    }
+
+    .capman_img {
+        width: 60%;
+        margin-top: 5%;
+        margin-left: 20%;
+    }
+
+    .C {
+        font-size: 50px;
+    }
+
+    .CYBTWP_clrtext {
+        font-size: 35px;
+        width: 80%;
+        margin-left: 17%;
+        font-weight: 700;
+    }
+
+    .CYBTWP_simple_justify {
+        text-align: start;
+        font-weight: bolder;
+        text-align: justify;
+        padding: 10px;
+        font-size: 16px;
+        width: 93%;
+        margin-left: 5%;
+    }
+
+    .IMAGINATION_SECSEC,
+    .INNOVATIVE_SECSEC {
+        display: none;
+    }
+}
+
+
+@media screen and (min-width:770px) and (max-width:1024px) {
+    /* first section */
+
+    #TRN_first_section_MainDiv {
+        height: auto;
+        /* border: 1px solid red; */
+        background-image: none;
+        background-color: black;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .TRN_business {
+        width: 15%;
+        font-size: 25px;
+        margin-left: 75%;
+    }
+
+    .TRN_RPTN_name {
+        font-size: 35px;
+        margin-right: 10%;
+    }
+
+    .TRN_SIDEBORDER_MAINDIV {
+        margin-right: 10%;
+        border-right: 3px solid white;
+        padding-right: 25px;
+    }
+
+    .TRN_SIDEBORDER_FIRST {
+        font-size: 25px;
+        width: 60%;
+        margin-left: 40%;
+    }
+
+    .TRN_SIDEBORDER_SECOND {
+        width: 60%;
+        margin-left: 40%;
+    }
+
+    .TRN_IMTOINO {
+        font-size: 20px;
+        margin-right: 10%;
+    }
+
+    .TRN_READMORE_FP {
+        font-size: 16px;
+    }
+
+    .arrow_right_Trans {
+        position: absolute;
+        top: 90%;
+        left: 85%;
+    }
+
+    .arrow_right_Trans span {
+        width: 1.25rem;
+        height: 1.25rem;
+        border-bottom: 4px solid white;
+        border-right: 4px solid white;
+    }
+
+    .TRANSPORTATION_trans_sec1,
+    .hashing_2hash {
+        display: none;
+    }
+
+    .trans_rmbtn{
+        width: 20%;
+    }
+
+    .redport_svg {
+        width: 15% !important;
+        margin-right: 10% !important;
+        padding-bottom: 20px;
+    }
+
+    /* second section */
+
+    #TRA_second_sec_main_div {
+        height: auto;
+        /* border: 1px solid white; */
+        background-color: black;
+        overflow: hidden;
+        flex-wrap: wrap;
+    }
+
+    .two_sec_first_main {
+        margin-left: 5%;
+        width: 90%;
+        /* border: 1px solid red; */
+    }
+
+    .two_sec_second_main {
+        padding-top: 20px;
+        text-align: end;
+        width: 90%;
+        margin-left: 5%;
+        /* border: 1px solid red; */
+        color: white;
+    }
+
+    .capman_img {
+        width: 50%;
+        margin-top: 10%;
+        margin-left: 25%;
+    }
+
+    .C {
+        font-size: 50px;
+    }
+
+    .CYBTWP_clrtext {
+        font-size: 35px;
+        width: 60%;
+        margin-left: 40%;
+        font-weight: 700;
+    }
+
+    .CYBTWP_simple_justify {
+        text-align: start;
+        font-weight: bolder;
+        text-align: justify;
+        padding: 10px;
+        font-size: 16px;
+        width: 80%;
+        margin-left: 20%;
+    }
+
+    .IMAGINATION_SECSEC,
+    .INNOVATIVE_SECSEC {
+        display: none;
+    }
+
+}
+
+@media screen and (min-width:1025px) and (max-width:1440px) {
+    .TRANSPORTATION_trans_sec1 {
+        top: 520px;
+        left: 180px;
+    }
+
+    .IMAGINATION_SECSEC {
+        left: 12%;
+        opacity: 5%;
+        color: white;
+    }
+    
+    .INNOVATIVE_SECSEC {
+        opacity: 0.5;
+        position: absolute;
+        rotate: 270deg;
+        left: 75%;
+        font-size: 90px;
+        font-weight: 600;
+        top: 45%;
+    }
+}

@@ -1,0 +1,934 @@
+/* ----------------------- Shopee Page CSS---------------------------------  */
+
+.content {
+    padding: 9% 10% 9% 10%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+    position: relative;
+    z-index: 1;
+}
+
+.hash_four {
+    position: absolute;
+    margin-left: 78%;
+    margin-top: 37%;
+    font-size: 700%;
+    color: white;
+    opacity: 5%;
+}
+
+.mamam11 {
+    width: 13%;
+}
+
+#shopee {
+    height: 100vh;
+    background-image: url(../images1/Ecom_main.png);
+    background-size: 100% 100%;
+    box-shadow: 0 100px 300px 50px black inset;
+    position: relative;
+    z-index: 2;
+}
+
+.section1 {
+    position: relative;
+}
+
+.main {
+    background-image: url(../images1/shopee_sec1.jpg);
+    background-size: 100% 100%;
+    box-shadow: 100px 100px 300px 50px black inset;
+    position: relative;
+}
+
+.main .search_btn {
+    border: none;
+    background-color: none;
+}
+
+.main h3 {
+    font-weight: bold;
+    color: skyblue;
+}
+
+.tec__H1 {
+    font-size: 300%;
+    rotate: 180deg;
+    position: absolute;
+    top: 10%;
+}
+
+.rm_shopee {
+    /* width: 50%; */
+    margin-bottom: 20px;
+    margin-left: 86%;
+}
+
+.rm_ecompage1 {
+    /* border: 1px solid red; */
+    width: 100%;
+}
+
+@media (min-width: 992px) {
+    .tec__H1 {
+        font-size: 500% !important;
+    }
+}
+
+.shopee_sec2_vl {
+    border-right: 2px solid #9d00f9;
+    height: 7rem;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 1rem;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+
+.bg__text__tn3 {
+    color: #ededed;
+    font-size: 5rem;
+    position: absolute;
+    opacity: 0.1;
+    top: 50px;
+    left: 800px;
+    bottom: 0;
+    transform: rotate(180deg);
+    -webkit-transform: rotate(90deg);
+}
+
+.section_2_bottom_img {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#tech_section2_tn {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.hashone {
+    color: #ffffff;
+    font-size: 700%;
+    opacity: 0.08;
+    position: absolute;
+    right: 9%;
+    bottom: 8%;
+}
+
+/* .buisenss button {
+    margin: 10px 0 10px 0;
+    border: 2px solid #6cb2c3;
+    font-weight: bold;
+    background: none;
+    padding: 5px 10px 5px 10px;
+} */
+
+.buisenss_btn {
+    border: 2px solid #6cb2c3;
+    font-weight: bold;
+    background: none;
+    padding: 5px 10px 5px 10px;
+    color: white;
+    font-weight: lighter;
+    font-size: 18px;
+}
+
+.content .Ecom__title {
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 1%;
+    padding: 0 0% 0 2%;
+    text-align: end;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(to right, #ff006f 60%, #9d00fa);
+}
+
+.content__border_right {
+    border-right: 3px solid white;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    text-align: justify;
+}
+
+#shopee .cbr_h3 {
+    font-size: 32px;
+    font-weight: bold;
+    color: skyblue;
+    margin: 0 2% 1% 0;
+    text-align: right;
+}
+
+.cbr__P {
+    padding-right: 2%;
+    width: 50%;
+    line-height: 1;
+    margin-bottom: 0;
+    text-align: right;
+    color: white;
+}
+
+.read_more_sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-left: 3%;
+    position: relative;
+    font-size: 1.5rem;
+    /* border: 1px solid red; */
+}
+
+.read_more_btn {
+    width: 55%;
+}
+
+.buiseness_dot {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    opacity: 0.2;
+}
+
+.ECContent_b {
+    font-size: 25px;
+    margin: 1% 2%;
+    text-align: end;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(to right, #ff006f 90%, #9d00fa);
+}
+
+.ECReadM {
+    font-size: 25px;
+    margin-top: 1%;
+    color: white;
+}
+
+.bg_text_tn_ECOm {
+    color: white;
+    font-size: 700%;
+    opacity: 0.08;
+    margin: 0;
+    position: absolute;
+    bottom: 1%;
+    left: 10%;
+
+}
+
+/* Ecommerce Page 2 */
+.capital {
+    padding: 5% 10% 2% 10%;
+    position: relative;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    z-index: 2;
+}
+
+.rplogo__left__img {
+    width: 85%;
+    margin-left: 10%;
+    height: 550px;
+}
+
+.capital .bg_text_fn {
+    color: #ededed;
+    font-size: 800%;
+    opacity: 0.08;
+    text-align: left;
+    margin-bottom: 0;
+    position: absolute;
+    bottom: 1%;
+    left: 10%;
+}
+
+.capital_content_text_right {
+    width: 100%;
+    /* border: 1px solid red; */
+    margin-top: 50px;
+}
+
+#section_2_img_left {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.shopee_sec2_vl {
+    border-right: 4px solid #9d00f9;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(to right, #ff006f, #9d00fa 90%);
+    font-weight: bold;
+    padding-right: 1rem;
+    align-items: center;
+    margin-bottom: 1rem;
+    font-size: 35px;
+    text-align: end;
+    height: auto;
+}
+
+.capital_content_text_right_p {
+    font-size: 17px;
+    text-align: justify;
+    letter-spacing: normal;
+    margin-bottom: 10%;
+}
+
+.section_2_bottom_img {
+    z-index: 10000;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.shopee_section2_bottom_svg {
+    height: 55px;
+    margin-right: 20%;
+}
+
+.tec__H1 {
+    font-size: 800%;
+    rotate: 270deg;
+    position: absolute;
+    top: 52%;
+    left: 70%;
+    opacity: 0.08;
+
+}
+
+/**************************** sECTION 3 ***************************/
+.also_read_carousel {
+    padding-top: 4rem;
+}
+
+.section3 {
+    position: relative;
+    padding-top: 1%;
+    padding-bottom: 2rem;
+    background-color: white;
+    background-image: url(../images1/earth.svg);
+    background-size: 50% 75%;
+    background-repeat: no-repeat;
+    background-position: right;
+    z-index: 2;
+    /* border: 1px solid white; */
+    background-position-y: 120px;
+}
+
+.section3_h1 {
+    margin: 0;
+    font-size: 40px;
+    margin-left: 20%;
+    font-weight: bolder;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(to right, #ff006f, #9d00fa 20%);
+}
+
+.section3_also_read_btn {
+    display: flex;
+    gap: 5rem;
+}
+
+#sec3_btn_animation {
+    transform: translate(-50%, -50%);
+    transform: rotate(270deg);
+    cursor: pointer;
+    top: 13%;
+    left: 37%;
+    position: absolute;
+}
+
+#sec3_btn_animation span {
+    display: block;
+    width: 1.3rem;
+    height: 1.3rem;
+    border-bottom: 4px solid white;
+    border-right: 4px solid white;
+    transform: rotate(90deg);
+    margin: -10px;
+    animation: animate 2s infinite;
+}
+
+#sec3_btn_animation span:nth-child(2) {
+    animation-delay: -0.2s;
+}
+
+#sec3_btn_animation span:nth-child(3) {
+    animation-delay: -0.4s;
+}
+
+.carousel {
+    margin: 0 0 0 0;
+    /* width: 100%; */
+}
+
+.ECOM__PAGE3__DS {
+    width: 850px;
+    margin-left: 10%;
+}
+
+#carousal_card {
+    display: flex;
+    flex-direction: row;
+    border: none;
+    position: relative;
+    background: none;
+    align-items: center;
+    width: 100%;
+    /* border: 1px solid white; */
+}
+
+#card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    left: 205%;
+    bottom: -13%;
+    height: 125%;
+    width: 25rem;
+}
+
+#card-body #card-title {
+    text-align: right;
+    padding-right: 10px;
+    border-right: 2px solid;
+    border-image: linear-gradient(to bottom, #ff006f, #9d00fa) 1;
+}
+
+#card-body #card-text {
+    text-align: right;
+}
+
+
+.carousal_section {
+    display: flex;
+    align-items: center;
+}
+
+#card-content {
+    background-color: black;
+    color: white;
+    padding: 25px;
+    height: 70%;
+    border-width: 2px;
+    border-style: solid;
+    border-image: linear-gradient(to bottom, #9d00fa, #ff006f) 1;
+    transition: -webkit-transform .2s ease;
+    transition: transform .2s ease;
+    transition: transform .2s ease, -webkit-transform .2s ease;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-perspective: 1000px;
+    perspective: 1000px;
+}
+
+.card-text {
+
+}
+
+
+
+.img-fluid111 {
+    height: 450px;
+    width: 500px !important;
+    border-width: 2px;
+    border-style: solid;
+    border-image: linear-gradient(to top, #ff006f, #9d00fa) 1;
+}
+
+#slider_card {
+    display: flex;
+    background: none;
+}
+
+#carousal_card .btn {
+    background: radial-gradient(circle,
+            rgba(157, 0, 250, 1) 16%,
+            rgba(255, 0, 111, 1) 57%);
+    border-radius: 50%;
+    /* border: 1px solid white; */
+}
+
+.section_2_form iframe {
+    height: 100%;
+    width: 100%;
+    padding: 1%;
+}
+
+.about__text__bottom {
+    position: absolute;
+    bottom: 2%;
+    color: #ededed;
+    font-size: 600%;
+    opacity: 0.1;
+}
+
+.con_sec3_left {
+    padding: 3% 2% 3% 0;
+}
+
+.con_sec3_right {
+    padding: 0.5% 0.5% 0.5% 0.5%;
+}
+
+#section_3_title {
+    /* font-size: 40px; */
+    padding-left: 10%;
+    font-style: italic;
+}
+
+@media (min-width: 768px) {
+    #section_3_title {
+        font-size: 30px;
+    }
+}
+
+#circle_icon {
+    height: 25px;
+    width: 25px;
+    background-color: rgb(253, 246, 246);
+    text-align: center;
+    line-height: 1.7;
+}
+
+#circle_icon3 {
+    height: 25px;
+    width: 25px;
+    background-color: rgb(253, 246, 246);
+    text-align: center;
+    line-height: 1.7;
+}
+
+.icon_col {
+    color: black;
+}
+
+@media screen and(max-width:768px) {
+    .bg__text__footer {
+        color: #ededed;
+        font-size: 300%;
+        opacity: 0.08;
+        text-align: center;
+        margin-bottom: 0;
+        position: absolute;
+    }
+}
+
+.bg__text__footer {
+    color: #ededed;
+    /* font-size: 800%; */
+    opacity: 0.08;
+    text-align: center;
+    margin-bottom: 0;
+    position: absolute;
+}
+
+.copyrights {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.carousel-item {
+    position: relative;
+    display: none;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+    transition: -webkit-transform .6s ease;
+    transition: transform .6s ease;
+    transition: transform .6s ease, -webkit-transform .6s ease;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-perspective: 1000px;
+    perspective: 1000px;
+}
+
+/* *****************************************************Responsive****************************************************************** */
+/* Section 1 */
+@media screen and (min-width: 1025px) and (max-width:1440px) {
+    .section1 {
+        margin-right: 0%;
+    }
+
+    .capital_content_text_right_p {
+        font-size: 1rem;
+    }
+
+    .capital_content_text_right {
+        font-size: 20px;
+    }
+
+    .tec__H1 {
+        left: 55%;
+    }
+
+    .bg_text_tn_ECOm {
+        font-size: 600%;
+    }
+}
+
+@media screen and (min-width: 770px) and (max-width:1024px) {
+    .section1 {
+        margin-right: 0%;
+    }
+
+    #sec3_btn_animation {
+        top: 12.5%;
+        left: 45%;
+    }
+
+    .capital_content_text_right_p {
+        font-size: 1rem;
+    }
+
+    .capital_content_text_right {
+        font-size: 32px;
+    }
+
+    .tec__H1 {
+        left: 55%;
+    }
+
+    .bg_text_tn_ECOm {
+        font-size: 600%;
+    }
+
+    .rplogo__left__img {
+        width: 90%;
+        margin-left: 5%;
+        height: 480px;
+    }
+}
+
+@media screen and (min-width:426px) and (max-width:768px) {
+    .buisenss .content .Ecom__title {
+        font-size: 35px;
+        font-weight: bold;
+        margin-bottom: 2%;
+        padding: 0 2% 0 2%;
+        text-align: right;
+    }
+
+    #shopee .cbr_h3 {
+        font-size: 22px;
+        margin-right: 3%;
+    }
+
+    .bg_text_tn_ECOm {
+        font-size: 200%;
+        left: 10%;
+        bottom: 10%;
+    }
+
+    .hash_four {
+        position: absolute;
+        margin-left: 10%;
+        margin-top: 50%;
+    }
+
+    .cbr__P {
+        line-height: 20px;
+    }
+
+    .ECContent_b {
+        font-size: 25px;
+        margin: 1% 4%;
+    }
+
+    .content {
+        padding: 9% 8% 9% 10%;
+    }
+
+
+    .capital {
+        height: auto;
+    }
+
+    .hashone {
+        font-size: 500%;
+    }
+
+    .rm_shopee {
+        margin-left: 75%;
+    }
+
+    .img-fluid111 {
+        width: 450px !important;
+    }
+
+    .content__border_right h3 {
+        margin: 0 2% 3% 0;
+
+    }
+
+    .content p {
+        font-size: 16px;
+    }
+
+    .content__border_right p {
+        padding-right: 3.5%;
+        width: 80%;
+    }
+
+    #sec3_btn_animation {
+        top: 12%;
+        left: 50%;
+    }
+
+    .content b {
+        font-size: 150%;
+        margin: 3% 4%;
+    }
+
+    .content h4 {
+        font-size: 100%;
+    }
+
+    .capital_content_text_right {
+        text-align: justify;
+        font-size: 19px;
+        font-weight: bold;
+    }
+
+    .section3_h1 {
+        margin-left: 20%;
+    }
+
+    /* section 3 */
+    .img-fluid111 {
+        height: 420px !important;
+        width: 375px !important;
+        min-width: 70% !important;
+    }
+
+    #card-body {
+        left: 38% !important;
+        min-width: 70%;
+    }
+
+    .ECOM__PAGE3__DS {
+        width: 100% !important;
+        margin-left: 5% !important;
+    }
+
+    .capital .bg_text_fn {
+        font-size: 400%;
+    }
+
+    .pt-5 {
+        padding-top: 0 !important;
+    }
+
+    #card-body {
+        height: 30rem;
+        bottom: -7%;
+        width: 60% !important;
+        left: 1%;
+    }
+
+    #card-content {
+        margin-left: 0%;
+        width: 90%;
+    }
+
+    .card-title {
+        font-size: 20px;
+    }
+
+    #card-text {
+        font-size: 15px;
+    }
+
+    .section3 {
+        padding-bottom: 0;
+    }
+
+    .section3_h1 {
+        margin-left: 10%;
+        font-size: 50px;
+    }
+
+    #sec3_btn_animation span {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+    .carousel {
+        width: 78%;
+    }
+}
+
+@media screen and (min-width:320px) and (max-width:426px) {
+    .Ecom__title {
+        font-size: 25px !important;
+
+    }
+
+    .cbr__P {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .capital_content_text_right {
+        text-align: justify;
+        font-size: 16px;
+        font-weight: bold;
+        /* border: 1px solid red; */
+    }
+
+    .capital {
+        height: auto;
+    }
+
+    #shopee .cbr_h3 {
+        font-size: 19px;
+    }
+
+    .bg_text_tn_ECOm {
+        bottom: 10%;
+        font-size: 260%;
+        left: 10%;
+        color: white;
+        opacity: 5%;
+    }
+
+    .hash_four {
+        margin-left: 10%;
+        margin-top: 92%;
+    }
+
+    .bg_text_fn {
+        font-size: 300% !important;
+        left: 50% !important;
+    }
+
+    #card-body {
+        left: 0;
+        min-width: 87% !important;
+        width: 26.5rem;
+    }
+
+    .ECContent_b {
+        font-size: 17px !important;
+    }
+
+    .rplogo__left__img {
+        width: 100%;
+        margin-left: 0%;
+        height: 80%;
+    }
+
+    .rm_shopee {
+        /* width: 50%; */
+        margin-bottom: 20px;
+        margin-left: 40%;
+    }
+
+    .shopee_sec2_vl {
+        font-size: 24px;
+    }
+
+    .img-fluid111 {
+        opacity: 0;
+    }
+
+    .capital_content_text_right_p {
+        font-size: 1rem;
+    }
+
+    .section3_h1 {
+        font-size: 35px;
+        margin-left: 8%;
+    }
+
+    .section3 {
+        background-size: 90%;
+        background-position-y: 400px;
+        background-position-x: 20px;
+    }
+
+    /* .ECOM__PAGE3__DS {
+        margin-left: 2% !important;
+        width: 80% !important;
+     } */
+
+    #sec3_btn_animation span {
+        width: 1.25rem;
+        height: 1.25rem;
+        border-bottom: 4px solid white;
+        border-right: 4px solid white;
+    }
+
+    #sec3_btn_animation {
+        left: 73%;
+        top: 11%;
+    }
+
+
+    /* .pb-5 {
+        width: 90% !important;
+        margin-left: 0% !important;
+    } */
+
+}
+
+@media screen and (min-width:376px) and (max-width:426px) {
+    .ECOM__PAGE3__DS {
+        margin-left: 1% !important;
+        width: 79% !important;
+    }
+
+    #card-content {
+        min-width: 84% !important;
+        /* height: 70%; */
+        width: 41%;
+        left: -8%;
+    }
+
+
+}
+
+@media screen and (min-width:321px) and (max-width:376px) {
+
+    .ECOM__PAGE3__DS {
+        margin-left: 1% !important;
+        width: 76% !important;
+    }
+
+    #card-content {
+        min-width: 70% !important;
+        /* height: 70%; */
+        width: 10%;
+        left: -7%;
+    }
+
+}
+
+@media screen and (max-width:320px) {
+
+    .ECOM__PAGE3__DS {
+        margin-left: 0% !important;
+        width: 74% !important;
+    }
+
+    #card-content {
+        min-width: 59% !important;
+        /* height: 70%; */
+        width: 10%;
+        left: -7%;
+    }
+
+}
